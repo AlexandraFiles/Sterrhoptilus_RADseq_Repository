@@ -2,7 +2,7 @@
 title: "Running *ADMIXTURE*"
 author: "Alexandra Files"
 date: "2024-10-26"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
