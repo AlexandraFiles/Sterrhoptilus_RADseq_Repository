@@ -1,12 +1,11 @@
 ---
 title: "Running *ADMIXTURE*"
 author: "Alexandra Files"
-date: "2024-10-26"
 output: github_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", echo = TRUE)
 ```
 
 I ran *ADMIXTURE* six times on this dataset by subsetting the populations included and investigating whether singletons impacted results for each subsetted dataset. I regularly found that singletons prominently influenced results. Results found in the main body of the manuscript are using all four *Sterrhoptilus* species and excluding singletons.
