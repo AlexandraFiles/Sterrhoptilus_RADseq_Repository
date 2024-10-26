@@ -25,11 +25,11 @@ subset the data as necessary.
 ### *ADMIXTURE* on all four Sterrhoptilus species
 
 *S. capitalis*, *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni*
-with singletons in [AdmixNoOutgroup](AdmixAllSpecies)
+with singletons in [AdmixAllSpecies](AdmixAllSpecies)
 
 *S. capitalis*, *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni*
 without singletons in
-[AdmixNoSingletonsNoOutgroup](AdmixAllSpeciesNoSingletons)
+[AdmixAllSpeciesNoSingletons](AdmixAllSpeciesNoSingletons)
 
 R script for visualizing the results with all four species is
 [here](Sterrhoptilus_VisualizingAdmixture_AllSpecies.R)
@@ -37,13 +37,14 @@ R script for visualizing the results with all four species is
 ### *ADMIXTURE* on three Sterrhoptilus species (excluding *S. capitalis*)
 
 *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni* with singletons
-in [AdmixNoOutgroup](AdmixNoCapitalis)
+in [AdmixNoCapitalis](AdmixNoCapitalis)
 
 *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni* without
-singletons in [AdmixNoOutgroup](AdmixNoCapitalisNoSingletons)
+singletons in
+[AdmixNoCapitalisNoSingletons](AdmixNoCapitalisNoSingletons)
 
 R script for visualizing the results with three species is
-[here](Sterrhoptilus_VisualizingAdmixture_NoCapitalis)
+[here](Sterrhoptilus_VisualizingAdmixture_NoCapitalis.R)
 
 ### *ADMIXTURE* on only *S. affinis* and *S. dennistouni*
 
