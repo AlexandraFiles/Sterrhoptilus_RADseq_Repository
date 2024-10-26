@@ -4,7 +4,7 @@
 install.packages("usethis")
 
 # step 1 (create the project: this creates a new folder)
-usethis::create_project("C:/Users/tangl/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/GitHub2")  # usually opens a new Rstudio
+usethis::create_project("C:/Users/tangl/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")  # usually opens a new Rstudio
 
 # step 2 (connect it with git; answer the questions in the console)
 usethis::use_git()  # commit changes; restart RStudio
