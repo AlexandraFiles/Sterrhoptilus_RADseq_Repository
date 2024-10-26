@@ -1,0 +1,29 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-extra-chr
+  --double-id
+  --make-bed
+  --out binary_fileset
+  --vcf thinned.nooutgroup.lowerqualityvcf
+
+Hostname: r05r18n01
+Working directory: /panfs/pfs.local/work/bi/a619f280/phil.stachyris/rerunofeverything
+Start time: Sat Sep 30 11:04:27 2023
+
+Random number seed: 1696089867
+257476 MB RAM detected; reserving 128738 MB for main workspace.
+--vcf: binary_fileset-temporary.bed + binary_fileset-temporary.bim +
+binary_fileset-temporary.fam written.
+3689 variants loaded from .bim file.
+47 people (0 males, 0 females, 47 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to binary_fileset.nosex .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 47 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.823005.
+3689 variants and 47 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to binary_fileset.bed + binary_fileset.bim + binary_fileset.fam ...
+done.
+
+End time: Sat Sep 30 11:04:27 2023
