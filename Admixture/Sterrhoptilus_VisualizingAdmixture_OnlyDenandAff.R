@@ -7,11 +7,9 @@ library(ggplot2)
 #using results from cluster
 #set working directory
 setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
-#read in vcf file
-#v<-read.vcfR("./Data/Sterrhoptilus_vcf_thinned.gz")
 
 #read in log error values to determine optimal K
-log<-read.table("./Admixture/AdmixOnlyDenandAff/log.errors.txt")[,c(3:4)]
+log<-read.table("./Admixture/AdmixOnlyDenandAffNoSingletons/log.errors.txt")[,c(3:4)]
 log$V3<-gsub("\\(K=", "", log$V3)
 log$V3<-gsub("):", "", log$V3)
 #interpret K values as numerical
@@ -30,7 +28,7 @@ ggplot(data=log, aes(x=Kvalue, y=cross.validation.error, group=1)) +
 #lowest value is 2
 
 #read in input file
-sampling<-read.table("./Admixture/AdmixOnlyDenandAff/binary_fileset.fam")[,1]
+sampling<-read.table("./Admixture/AdmixOnlyDenandAffNoSingletons/binary_fileset.fam")[,1]
 #get list of input samples in order they appear
 sampling
 
@@ -38,7 +36,7 @@ sampling
 runs<-list()
 #read in log files
 for (i in 1:10){
-  runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAff/binary_fileset.", i, ".Q"))
+  runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAffNoSingletons/binary_fileset.", i, ".Q"))
 }
 
 #plot each run

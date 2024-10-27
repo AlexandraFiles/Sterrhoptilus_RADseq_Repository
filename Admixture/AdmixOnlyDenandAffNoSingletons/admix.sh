@@ -1,10 +1,10 @@
 #!/bin/sh
 #
 #SBATCH --job-name=admixture               # Job Name
-#SBATCH --nodes=1             # nodes requested
-#SBATCH --ntasks-per-node=10               # CPU requested
+#SBATCH --nodes=1             # 40 nodes
+#SBATCH --ntasks-per-node=10               # 40 CPU allocation per Task
 #SBATCH --partition=sixhour         # Name of the Slurm partition used
-#SBATCH --chdir=/home/a619f280/work/phil.stachyris/admixture/admixonlydenandaffnosingletons    # Set working d$
+#SBATCH --chdir=/home/a619f280/work/phil.stachyris/rerunofeverything/admixonlydenandaffnosingletons    # Set working d$
 #SBATCH --mem-per-cpu=1gb            # memory requested
 #SBATCH --time=360
 

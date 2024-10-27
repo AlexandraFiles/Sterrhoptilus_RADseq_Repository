@@ -40,6 +40,36 @@ R script for visualizing the results with three species is [here](Sterrhoptilus_
 
 R script for visualizing the results with only two species is [here](Sterrhoptilus_VisualizingAdmixture_OnlyDenandAff.R)
 
-### Generated 1 or two bar plots for each subsetted dataset
+### Generated one or two bar plots for each subsetted dataset
 
 All 6 plots can be seen in the folder [AdmixturePlots](AdmixturePlots)
+
+#### All four *Sterrhoptilus* species
+
+Cross Validation Score with Singletons  |  Bar Plots with Singletons
+:-------------------------:|:-------------------------:
+![](./AdmixturePlots/AdmixAllSpeciesCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixAllSpeciesPlots.svg)
+
+Cross Validation Score without Singletons  |  Bar Plots without Singletons
+:-------------------------:|:-------------------------:
+![](./AdmixturePlots/AdmixAllSpeciesNoSingletonsCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixAllSpeciesNoSingletonsPlots.svg)
+
+#### Three *Sterrhoptilus* Species (excluding *S. capitalis*)
+
+Cross Validation Score with Singletons  |  Bar Plots with Singletons
+:-------------------------:|:-------------------------:
+![](./AdmixturePlots/AdmixNoCapitalisCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixNoCapitalisPlots.svg)
+
+Cross Validation Score without Singletons  |  Bar Plots without Singletons
+:-------------------------:|:-------------------------:
+![](./AdmixturePlots/AdmixNoCapitalisNoSingletonsCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixNoCapitalisNoSingletonsPlots.svg)
+
+#### Only *S. dennistouni* and *S. affinis*
+
+Cross Validation Score with Singletons  |  Bar Plots with Singletons
+:-------------------------:|:-------------------------:
+![](./AdmixturePlots/AdmixOnlyDenandAffCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixOnlyDenandAffBarPlot.svg)
+
+Cross Validation Score without Singletons  |  Bar Plots without Singletons
+:-------------------------:|:-------------------------:
+![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsBarPlot.svg)
