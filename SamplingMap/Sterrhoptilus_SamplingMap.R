@@ -5,11 +5,11 @@ library(rgeoboundaries)
 library(sf)
 
 #set working directory
-setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/manuscript/Data")
+setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
 
 #read in sampling file
 #columns named Latitude, Longitude, and species are of interest
-pops<- read.csv("Samplingmap_data.csv")
+pops<- read.csv("./Data/Samplingmap_data.csv")
 
 #generate list of unique latitudes
 unq<-pops[!duplicated(pops$Latitude),]
@@ -32,15 +32,15 @@ ggplot() +
         axis.ticks = element_blank(),
         rect = element_blank()) +
   geom_point(data = unq, aes(x = Longitude, y = Latitude, color=Species, size=sample.size), show.legend=TRUE) +
-  scale_color_manual(values=c("#f4b71c","#242424","#6f6f6f","#d83406"), 
+  scale_color_manual(values=c("#f4b71c","#242424","#6f6f6f","#d83406"),
                      breaks = c("dennistouni","affinis","nigrocapitatus","capitalis"),
-                     labels = c(expression(italic("S. dennistouni")), expression(italic("S. affinis")), 
+                     labels = c(expression(italic("S. dennistouni")), expression(italic("S. affinis")),
                               expression(italic("S. nigrocapitatus")), expression(italic("S. capitalis"))))+
   geom_point(data = unq, aes(x = Longitude, y = Latitude, size=sample.size), shape=21, colour="black")+
   labs(x = "", y = "", size="Count", color="Species")+
   theme(legend.position = c(0.67, 0.57), legend.justification = c(0.01, 0.01),
         legend.background = element_blank(), legend.spacing.y = unit(0.01, "cm"), legend.text.align = 0)+
-  guides(color = guide_legend(order = 1, override.aes = list(size=4, shape=21, color = "black", 
+  guides(color = guide_legend(order = 1, override.aes = list(size=4, shape=21, color = "black",
          fill=c("#f4b71c","#6f6f6f","#242424","#d83406"))),
          size = guide_legend(order = 2, override.aes = list(shape=21)))+
   scale_size(range = c(2,7), breaks=c(2,5,10))

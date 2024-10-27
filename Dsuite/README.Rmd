@@ -30,7 +30,7 @@ As expected, Dsuite found that the configuration with the most BBAA patterns was
 
 #### *S. dennistouni* split into birds from putative hybrid zone and birds to the north of it
 
-To better reflect the phylogenetic tree recovered, I split the *S. dennistouni* population into two: one consisting of all birds outside the putative hybrid zone and one consisting of all birds from Aurora (see [sampling map](link_here)). I used the below [tree](./Dsuite_betweenDenandAff_DenSplit/nwk.tre.txt).
+To better reflect the phylogenetic tree recovered, I split the *S. dennistouni* population into two: one consisting of all birds outside the putative hybrid zone and one consisting of all birds from Aurora (see [sampling map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). I used the below [tree](./Dsuite_betweenDenandAff_DenSplit/nwk.tre.txt).
 
 I received a significant Patterson's D statistic of 0.210524, with a subsequent Z-score of 4.68472 yielding a p-value of 1.4017e-06 (see the [resulting text files](./Dsuite_betweenDenandAff_DenSplit/stachyris.pops_densplit_tree.txt)).
 
