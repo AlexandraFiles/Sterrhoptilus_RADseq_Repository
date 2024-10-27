@@ -1,0 +1,143 @@
+populations v2.41, executed 2023-10-01 11:29:13 (zlib-1.2.7)
+/home/d669d153/work/stacks-2.41/populations -P /home/a619f280/work/phil.stachyris/stacks_n4 -O . -M iqtree.popmap.txt --whitelist whitelist.txt --phylip-var-all
+Locus/sample distributions will be written to './populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  Fstats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 50 samples, 50 population(s), 1 group(s).
+Loaded 5341 whitelisted markers.
+Working on 50 samples.
+Working on 50 population(s):
+    cap_28326: S_capitalis_28326
+    cap_28338: S_capitalis_28338
+    cap_28339: S_capitalis_28339
+    cap_28341: S_capitalis_28341
+    cap_28342: S_capitalis_28342
+    cap_29959: S_capitalis_29959
+    cap_29965: S_capitalis_29965
+    cap_29968: S_capitalis_29968
+    cap_37769: S_capitalis_CMNH37769
+    den_19648: S_dennistouni_19648
+    den_19656: S_dennistouni_19656
+    den_20186: S_dennistouni_20186
+    den_20187: S_dennistouni_20187
+    den_20188: S_dennistouni_20188
+    den_20191: S_dennistouni_20191
+    den_20201: S_dennistouni_20201
+    den_20222: S_dennistouni_20222
+    den_20224: S_dennistouni_20224
+    den_20225: S_dennistouni_20225
+    den_20229: S_dennistouni_20229
+    den_20335: S_dennistouni_20335
+    den_21084: S_dennistouni_21084
+    den_21112: S_dennistouni_21112
+    den_25696: S_dennistouni_25696
+    den_25702: S_dennistouni_25702
+    den_25703: S_dennistouni_25703
+    den_25716: S_dennistouni_25716
+    den_25743: S_dennistouni_25743
+    den_25817: S_dennistouni_25817
+    den_25828: S_dennistouni_25828
+    den_25846: S_dennistouni_25846
+    den_25885: S_dennistouni_25885
+    den_25898: S_dennistouni_25898
+    den_25903: S_dennistouni_25903
+    den_25908: S_dennistouni_25908
+    den_25939: S_dennistouni_25939
+    den_26573: S_dennistouni_26573
+    den_26579: S_dennistouni_26579
+    den_26961: S_dennistouni_26961
+    ni_14192: S_nigrocapitata_14192
+    ni_14199: S_nigrocapitata_14199
+    aff_18034: S_nigrocapitata_18034
+    aff_18040: S_nigrocapitata_18040
+    aff_18083: S_nigrocapitata_18083
+    aff_25550: S_nigrocapitata_25550
+    ni_33030: S_nigrocapitata_33030
+    ni_33060: S_nigrocapitata_33060
+    pla_19056: S_plateni_19056
+    pla_28305: S_plateni_28305
+    pla_28350: S_plateni_28350
+Working on 1 group(s) of populations:
+    defaultgrp: cap_28326, cap_28338, cap_28339, cap_28341, cap_28342, cap_29959, cap_29965, cap_29968, cap_37769, den_19648, den_19656, den_20186, den_20187, den_20188, den_20191, den_20201, den_20222, den_20224, den_20225, den_20229, den_20335, den_21084, den_21112, den_25696, den_25702, den_25703, den_25716, den_25743, den_25817, den_25828, den_25846, den_25885, den_25898, den_25903, den_25908, den_25939, den_26573, den_26579, den_26961, ni_14192, ni_14199, aff_18034, aff_18040, aff_18083, aff_25550, ni_33030, ni_33060, pla_19056, pla_28305, pla_28350
+
+All sites (fixed and variable) will be written in Phylip format to './populations.all.phylip'
+Genotyping markers will be written to './populations.markers.tsv'
+Raw Genotypes/Haplotypes will be written to './populations.haplotypes.tsv'
+Population-level summary statistics will be written to './populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to './populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in './populations.log.distribs'.
+Now processing...
+Batch 1 
+
+Removed 142662 loci that did not pass sample/population constraints from 148003 loci.
+Kept 5341 loci, composed of 509058 sites; 1 of those sites were filtered, 20345 variant sites remained.
+Mean genotyped sites per locus: 95.31bp (stderr 0.02).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  cap_28326: 1 samples per locus; pi: 0.05945; all/variant/polymorphic sites: 483054/19260/1145; private alleles: 54
+  cap_28338: 1 samples per locus; pi: 0.067935; all/variant/polymorphic sites: 495277/19769/1343; private alleles: 45
+  cap_28339: 1 samples per locus; pi: 0.073585; all/variant/polymorphic sites: 494286/19705/1450; private alleles: 32
+  cap_28341: 1 samples per locus; pi: 0.058405; all/variant/polymorphic sites: 430497/17156/1002; private alleles: 77
+  cap_28342: 1 samples per locus; pi: 0.066926; all/variant/polymorphic sites: 477548/19006/1272; private alleles: 45
+  cap_29959: 1 samples per locus; pi: 0.063581; all/variant/polymorphic sites: 480871/19188/1220; private alleles: 318
+  cap_29965: 1 samples per locus; pi: 0.055284; all/variant/polymorphic sites: 416073/16750/926; private alleles: 309
+  cap_29968: 1 samples per locus; pi: 0.073394; all/variant/polymorphic sites: 496574/19811/1454; private alleles: 382
+  cap_37769: 1 samples per locus; pi: 0.066153; all/variant/polymorphic sites: 494401/19727/1305; private alleles: 528
+  den_19648: 1 samples per locus; pi: 0.039117; all/variant/polymorphic sites: 350971/13958/546; private alleles: 36
+  den_19656: 1 samples per locus; pi: 0.058466; all/variant/polymorphic sites: 497886/19892/1163; private alleles: 78
+  den_20186: 1 samples per locus; pi: 0.053468; all/variant/polymorphic sites: 498998/19881/1063; private alleles: 47
+  den_20187: 1 samples per locus; pi: 0.058444; all/variant/polymorphic sites: 502464/20019/1170; private alleles: 91
+  den_20188: 1 samples per locus; pi: 0.056448; all/variant/polymorphic sites: 502558/20036/1131; private alleles: 34
+  den_20191: 1 samples per locus; pi: 0.055422; all/variant/polymorphic sites: 501762/19992/1108; private alleles: 53
+  den_20201: 1 samples per locus; pi: 0.023316; all/variant/polymorphic sites: 174094/6948/162; private alleles: 23
+  den_20222: 1 samples per locus; pi: 0.061563; all/variant/polymorphic sites: 500818/19947/1228; private alleles: 48
+  den_20224: 1 samples per locus; pi: 0.057908; all/variant/polymorphic sites: 502914/20049/1161; private alleles: 18
+  den_20225: 1 samples per locus; pi: 0.022409; all/variant/polymorphic sites: 211073/8345/187; private alleles: 24
+  den_20229: 1 samples per locus; pi: 0.049195; all/variant/polymorphic sites: 487360/19453/957; private alleles: 35
+  den_20335: 1 samples per locus; pi: 0.028702; all/variant/polymorphic sites: 251257/10069/289; private alleles: 27
+  den_21084: 1 samples per locus; pi: 0.049783; all/variant/polymorphic sites: 495776/19786/985; private alleles: 109
+  den_21112: 1 samples per locus; pi: 0.044925; all/variant/polymorphic sites: 499093/19900/894; private alleles: 94
+  den_25696: 1 samples per locus; pi: 0.049059; all/variant/polymorphic sites: 494824/19711/967; private alleles: 42
+  den_25702: 1 samples per locus; pi: 0.049053; all/variant/polymorphic sites: 502263/20019/982; private alleles: 40
+  den_25703: 1 samples per locus; pi: 0.050946; all/variant/polymorphic sites: 499285/19923/1015; private alleles: 46
+  den_25716: 1 samples per locus; pi: 0.041448; all/variant/polymorphic sites: 477217/19060/790; private alleles: 88
+  den_25743: 1 samples per locus; pi: 0.029622; all/variant/polymorphic sites: 281797/11309/335; private alleles: 35
+  den_25817: 1 samples per locus; pi: 0.053322; all/variant/polymorphic sites: 497853/19823/1057; private alleles: 126
+  den_25828: 1 samples per locus; pi: 0.034491; all/variant/polymorphic sites: 322458/12960/447; private alleles: 56
+  den_25846: 1 samples per locus; pi: 0.024039; all/variant/polymorphic sites: 185767/7363/177; private alleles: 22
+  den_25885: 1 samples per locus; pi: 0.042269; all/variant/polymorphic sites: 461044/18406/778; private alleles: 76
+  den_25898: 1 samples per locus; pi: 0.037562; all/variant/polymorphic sites: 426103/16932/636; private alleles: 67
+  den_25903: 1 samples per locus; pi: 0.049631; all/variant/polymorphic sites: 499580/19907/988; private alleles: 111
+  den_25908: 1 samples per locus; pi: 0.047709; all/variant/polymorphic sites: 478476/19116/912; private alleles: 87
+  den_25939: 1 samples per locus; pi: 0.047282; all/variant/polymorphic sites: 488883/19479/921; private alleles: 84
+  den_26573: 1 samples per locus; pi: 0.054123; all/variant/polymorphic sites: 485086/19308/1045; private alleles: 105
+  den_26579: 1 samples per locus; pi: 0.05677; all/variant/polymorphic sites: 496533/19852/1127; private alleles: 98
+  den_26961: 1 samples per locus; pi: 0.044641; all/variant/polymorphic sites: 479446/19063/851; private alleles: 82
+  ni_14192: 1 samples per locus; pi: 0.038423; all/variant/polymorphic sites: 324280/13013/500; private alleles: 249
+  ni_14199: 1 samples per locus; pi: 0.052345; all/variant/polymorphic sites: 454105/18168/951; private alleles: 434
+  aff_18034: 1 samples per locus; pi: 0.046925; all/variant/polymorphic sites: 486101/19350/908; private alleles: 188
+  aff_18040: 1 samples per locus; pi: 0.057339; all/variant/polymorphic sites: 501211/20004/1147; private alleles: 250
+  aff_18083: 1 samples per locus; pi: 0.051923; all/variant/polymorphic sites: 497172/19837/1030; private alleles: 207
+  aff_25550: 1 samples per locus; pi: 0.025; all/variant/polymorphic sites: 153061/6120/153; private alleles: 21
+  ni_33030: 1 samples per locus; pi: 0.044347; all/variant/polymorphic sites: 407333/16213/719; private alleles: 388
+  ni_33060: 1 samples per locus; pi: 0.034413; all/variant/polymorphic sites: 244293/9938/342; private alleles: 172
+  pla_19056: 1 samples per locus; pi: 0.065334; all/variant/polymorphic sites: 408621/16760/1095; private alleles: 799
+  pla_28305: 1 samples per locus; pi: 0.047087; all/variant/polymorphic sites: 400200/16480/776; private alleles: 578
+  pla_28350: 1 samples per locus; pi: 0.047691; all/variant/polymorphic sites: 354718/14594/696; private alleles: 441
+Populations is done.

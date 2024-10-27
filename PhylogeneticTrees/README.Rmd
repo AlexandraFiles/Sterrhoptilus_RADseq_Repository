@@ -1,0 +1,25 @@
+---
+title: "Phylogenetic Trees for *Sterrhoptilus*"
+author: "Alexandra Files"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>", echo = TRUE)
+```
+
+This folder contains all files and results from running *IQTree* to make a phylogenetic tree and the unrooted phylogenetic network using *SplitsTree*.
+
+### IQTree
+
+The folder [IQTree](IQTree) contains the bash script for running *IQTree* and all the subsequent results. I performed 1000 ultra-fast bootstrap replicates and had IQTree select the best AIC tree.
+
+I visualized [pops.phy.treefile](IQTree/pops.phy.treefile) with *FigTree*, rooted on the outgroup *D. plateni*.
+
+![Phylogenetic Tree Rooted on *D. plateni* visualized with *FigTree*](Sterrhoptilus_PhylogeneticTree.svg)
+
+### SplitsTree
+
+I prepared the vcf file for SplitsTree by editing sample names and making a pairwise divergence matrix using the script [Sterrhoptilus_PreparationforSplitsTree](Sterrhoptilus_PreparationforSplitsTree.R), generating the [input text file](splitstree.nooutgroup.txt) for visualization in SplitsTree.
+
+![Unrooted Phylogenetic Network Visualized with SplitsTree](Sterrhoptilus_PhylogeneticNetwork.svg)
