@@ -29,13 +29,14 @@ samples in total).
 I iterated over [m](./Running_Stacks/optimize.m.sh),
 [M](./Running_Stacks/optimize.bigm.sh), and
 [n](./Running_Stacks/optimize.n.sh), respectively to determine that the
-optimal parameters were [-m 4](ParameterOptimizationmplot.svg), [-M
-3](ParameterOptimizationBigMPlot.svg) and [-n
-4](ParameterOptimizationnPlot.svg) (the asterisks denote the number of
-loci with 80% completeness, the red asterisk shows which value for that
-parameter retained the most loci). The vcf following *Stacks* parameter
-optimization before any filtering and quality control is called
-[n4.vcf.gz](./Running_Stacks/n4.vcf.gz).
+optimal parameters were [-m
+4](./Running_Stacks/ParameterOptimization_m_Plot.s) [-M
+3](./Running_Stacks/ParameterOptimization_BigM_Plot.svg) and [-n
+4](./Running_Stacks/ParameterOptimization_n_Plot.svg) (the asterisks
+denote the number of loci with 80% completeness, the red asterisk shows
+which value for that parameter retained the most loci). The vcf
+following *Stacks* parameter optimization before any filtering and
+quality control is called [n4.vcf.gz](./Running_Stacks/n4.vcf.gz).
 
 #### SNP Filtering
 
