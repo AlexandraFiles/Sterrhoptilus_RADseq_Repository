@@ -11,16 +11,16 @@ setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/S
 #read in vcf file
 vcf<-read.vcfR("./Data/Sterrhoptilus_vcf.gz")
 #read in subsetted sample data without outgroups, S. nigrocapitatus, S. capitalis, or northern S. dennistouni
-locs<-read.csv("./Data/Sterrhoptilus_SamplingDataSubsetted_NorthernDenIncluded.csv")
-
-#subset locs to include only samples that passed filtering, and have been retained in the vcf
-locs<-locs[locs$ID %in% colnames(vcf@gt),]
+locs<-read.csv("./Data/Sterrhoptilus_SamplingData.csv")
 
 #remove outgroup, S. capitalis, S. nigrocapitatus, and northern S. dennistouni from vcf file
 #check names to see which columns to keep
 colnames(vcf@gt)
 #subset vcf file to only keep southern S. dennistouni and S. affinis
 vcf@gt<-vcf@gt[,c(1,11:40,43:46)]
+#subset locs to include only samples that passed filtering and have been retained in the vcf, and remove populations that aren't used in this analysis
+locs<-locs[locs$ID %in% colnames(vcf@gt),]
+
 #order population data to match vcf
 locs<-locs[order(match(locs$ID,colnames(vcf@gt)[-1])),]
 #verify that everything was subsetted correctly, all should return true

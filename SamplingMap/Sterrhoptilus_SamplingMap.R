@@ -9,7 +9,7 @@ setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/S
 
 #read in sampling file
 #columns named Latitude, Longitude, and species are of interest
-pops<- read.csv("./Data/Samplingmap_data.csv")
+pops<- read.csv("./Data/Sterrhoptilus_SamplingData.csv")
 
 #generate list of unique latitudes
 unq<-pops[!duplicated(pops$Latitude),]
@@ -32,7 +32,7 @@ ggplot() +
         axis.ticks = element_blank(),
         rect = element_blank()) +
   geom_point(data = unq, aes(x = Longitude, y = Latitude, color=Species, size=sample.size), show.legend=TRUE) +
-  scale_color_manual(values=c("#f4b71c","#242424","#6f6f6f","#d83406"),
+  scale_color_manual(values=c("#f4b71c","#6f6f6f","#242424","#d83406"),
                      breaks = c("dennistouni","affinis","nigrocapitatus","capitalis"),
                      labels = c(expression(italic("S. dennistouni")), expression(italic("S. affinis")),
                               expression(italic("S. nigrocapitatus")), expression(italic("S. capitalis"))))+
