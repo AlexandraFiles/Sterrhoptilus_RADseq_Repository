@@ -30,7 +30,7 @@ I iterated over [m](./Running_Stacks/optimize.m.sh),
 [M](./Running_Stacks/optimize.bigm.sh), and
 [n](./Running_Stacks/optimize.n.sh), respectively to determine that the
 optimal parameters were [-m
-4](./Running_Stacks/ParameterOptimization_m_Plot.s) [-M
+4](./Running_Stacks/ParameterOptimization_m_Plot.svg) [-M
 3](./Running_Stacks/ParameterOptimization_BigM_Plot.svg) and [-n
 4](./Running_Stacks/ParameterOptimization_n_Plot.svg) (the asterisks
 denote the number of loci with 80% completeness, the red asterisk shows
