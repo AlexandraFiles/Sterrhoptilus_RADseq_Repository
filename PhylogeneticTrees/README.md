@@ -11,9 +11,9 @@ a phylogenetic tree and the unrooted phylogenetic network using
 The folder [IQTree](IQTree) contains the bash script for running
 *IQTree* and all the subsequent results. I generated
 [pops.phy](./IQTree/pops.phy) file for input into *IQTree* with
-*Stack’s* population model with
-[whitelist.txt](./IQTree/whitelist.txt)(containing all locus names) and
-[iqtree.popmap.txt](./IQTree/iqtree.popmap.txt)(containing all samples)
+*Stack’s* population model with [whitelist.txt](./IQTree/whitelist.txt)
+(containing all locus names) and
+[iqtree.popmap.txt](./IQTree/iqtree.popmap.txt) (containing all samples)
 files. I performed 1000 ultra-fast bootstrap replicates and had IQTree
 select the best AIC tree.
 
