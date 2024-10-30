@@ -30,5 +30,5 @@ v.x<-min_mac(v, min.mac = 2)
 
 #write to disk to run on cluster
 #change naming to reflect subsetted data
-vcfR::write.vcf(v, file="thinned.nooutgroup.lowerqualityvcf")
-vcfR::write.vcf(v.x, file="thinned.nooutgroup.mac.lowerqualityvcf")
+vcfR::write.vcf(v, file="sterrhoptilusadmix_nooutgroup.vcf.gz")
+vcfR::write.vcf(v.x, file="sterrhoptilusadmix_nooutgroup.mac.vcf.gz")

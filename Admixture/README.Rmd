@@ -8,9 +8,9 @@ output: github_document
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>", echo = TRUE)
 ```
 
-I ran *ADMIXTURE* six times on this dataset by subsetting the populations included and investigating whether singletons impacted results for each subsetted dataset. I regularly found that singletons prominently influenced results. Results found in the main body of the manuscript are using all four *Sterrhoptilus* species and excluding singletons.
+I ran *ADMIXTURE* six times on this dataset (on the [linkage-filtered vcf](../Data/Sterrhoptilus_thinned_vcf.gz)) by subsetting the populations included and investigating whether singletons impacted results for each subsetted dataset. I regularly found that singletons prominently influenced results. Results found in the main body of the manuscript are using all four *Sterrhoptilus* species and excluding singletons.
 
-For each of the six *ADMIXTURE* runs, I report the results in the appropriate folder. R was then used to visualize the results.  There are three different scripts but they only vary in how to order and color the data depending on which subsetted dataset it is. The same script can be used for both singleton and non-singleton runs.
+For each of the six *ADMIXTURE* runs, I report the results in the appropriate folder. R was then used to visualize the results. There are three different scripts but they only vary in how to order and color the data depending on which subsetted dataset it is. The same script can be used for both singleton and non-singleton runs.
 
 ### Prepping vcf file for running *ADMIXTURE*
 

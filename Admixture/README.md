@@ -2,7 +2,8 @@ Running *ADMIXTURE*
 ================
 Alexandra Files
 
-I ran *ADMIXTURE* six times on this dataset by subsetting the
+I ran *ADMIXTURE* six times on this dataset (on the [linkage-filtered
+vcf](../Data/Sterrhoptilus_thinned_vcf.gz)) by subsetting the
 populations included and investigating whether singletons impacted
 results for each subsetted dataset. I regularly found that singletons
 prominently influenced results. Results found in the main body of the

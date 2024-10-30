@@ -20,7 +20,9 @@ I used the filtered datasets to reconstruct *Sterrhoptilus* phylogenetic relatio
 
 ### PCA and Fst
 
-Code for making the PCA plot can be found within the folder [PCA](./PopulationStructure/PCA), and details of calculating Fst values and fixed differences in the folder [Fst](./PopulationStructure/Fst).
+I made a PCA plot with the code found in the folder [PCA](./PopulationStructure/PCA).  
+
+For looking at Fst values, I split *S. dennistouni* into northern birds (sampled north of the putative hybrid zone) and southern individuals (those sampled from within the putative hybrid zone).  Code for calculating Fst values and fixed differences is in the folder [Fst](./PopulationStructure/Fst).
 
 ### *ADMIXTURE*
 
@@ -31,6 +33,3 @@ I ran *ADMIXTURE* several times on this dataset, subsetting the data and includi
 I first tested for hybridization in *Sterrhoptilus* by looking at Patterson's D statistic (ABBA/BABA tests) and found that *S. nigrocapitatus* and *S. affinis* had a non-significant D statistic, but *S. affinis* and *S. dennistouni* did share an excess of alleles than would be expected from incomplete lineage sorting alone. Those results can be found in the [Dsuite](./Dsuite) folder.
 
 I then looked at heterozygosity and hybrid index, to determine what generation of hybrids were sampled. I performed two similar runs, both within the [TrianglePlot](./TrianglePlot) folder, were I chose different *S. dennistouni* to be one parental population.
-
-
-

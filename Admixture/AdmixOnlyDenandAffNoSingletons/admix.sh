@@ -9,7 +9,7 @@
 #SBATCH --time=360
 
 #use plink to convert vcf directly to bed format:
-/home/d669d153/work/plink --vcf thinned.onlydenandaff.mac.lowerqualityvcf --double-id --allow-extra-chr --make-bed --out binary_fileset
+/home/d669d153/work/plink --vcf sterrhoptilusadmix_onlydenandaff.mac.vcf.gz --double-id --allow-extra-chr --make-bed --out binary_fileset
 #fix chromosome names
 cut -f2- binary_fileset.bim  > temp
 awk 'BEGIN{FS=OFS="\t"}{print value 1 OFS $0}' temp > binary_fileset.bim
