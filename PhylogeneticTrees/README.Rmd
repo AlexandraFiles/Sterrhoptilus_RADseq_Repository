@@ -20,6 +20,6 @@ I visualized [pops.phy.treefile](IQTree/pops.phy.treefile) with *FigTree*, roote
 
 ### SplitsTree
 
-I prepared the vcf file for SplitsTree by editing sample names and making a pairwise divergence matrix using the script [Sterrhoptilus_PreparationforSplitsTree](Sterrhoptilus_PreparationforSplitsTree.R), generating the [input text file](splitstree.nooutgroup.txt) for visualization in SplitsTree.
+I prepared the vcf file for *SplitsTree* by editing sample names and making a pairwise divergence matrix using the script [Sterrhoptilus_PreparationforSplitsTree](Sterrhoptilus_PreparationforSplitsTree.R), generating the [input text file](splitstree.nooutgroup.txt) for visualization in *SplitsTree*.
 
-![Unrooted Phylogenetic Network Visualized with SplitsTree](Sterrhoptilus_PhylogeneticNetwork.svg)
+![Unrooted Phylogenetic Network Visualized with *SplitsTree*](Sterrhoptilus_PhylogeneticNetwork.svg)
