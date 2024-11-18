@@ -3,8 +3,8 @@ Phylogenetic Trees for *Sterrhoptilus*
 Alexandra Files
 
 This folder contains all files and results from running *IQTree* to make
-a phylogenetic tree and the unrooted phylogenetic network using
-*SplitsTree*.
+a phylogenetic tree, an unrooted phylogenetic network using
+*SplitsTree*, and a species tree using *SNAPP*.
 
 ### IQTree
 
@@ -35,9 +35,18 @@ making a pairwise divergence matrix using the script
 generating the [input text file](splitstree.nooutgroup.txt) for
 visualization in *SplitsTree*.
 
-<figure>
-<img src="Sterrhoptilus_PhylogeneticNetwork.svg"
-alt="Unrooted Phylogenetic Network Visualized with SplitsTree" />
-<figcaption aria-hidden="true">Unrooted Phylogenetic Network Visualized
-with <em>SplitsTree</em></figcaption>
-</figure>
+![Unrooted Phylogenetic Network Visualized with
+*SplitsTree*](Sterrhoptilus_PhylogeneticNetwork.svg) \### SNAPP
+
+I randomly subsampled my data to have three individuals from each
+species (putative hybrids were not eligible to be selected for
+subsampling) five separate times, using the [Preparation for Snapp
+script](./SNAPP/Sterrhoptilus_PreparationforSnappTree.R). This resulted
+in five nexus files, with random subsampling of the data that can be
+found in the [SNAPP folder](./SNAPP). For each nexus file, I used
+*BEAUti* to make .xml files for input into *BEAST*, specifying … model
+specifications. All nexus files, xml files, and output trees can be
+found in the [SNAPP folder](./SNAPP).
+
+All species trees converged on the same topology, tree from
+[1.nex](./SNAPP/1.nex) is shown below.

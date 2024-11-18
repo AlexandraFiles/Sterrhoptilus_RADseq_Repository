@@ -18,9 +18,10 @@ to visualize the sampling of the dataset.
 ### Phylogenetic Tree Reconstructions
 
 I used the filtered datasets to reconstruct *Sterrhoptilus* phylogenetic
-relationships and looked at a rooted tree with *IQTree* and an unrooted
-phylogenetic network with *SplitsTree*. The results and necessary data
-can be found in the folder [PhylogeneticTrees](./PhylogeneticTrees)
+relationships and looked at a rooted tree with *IQTree*, an unrooted
+phylogenetic network with *SplitsTree*, and a species tree using
+*SNAPP*. The results and necessary data can be found in the folder
+[PhylogeneticTrees](./PhylogeneticTrees)
 
 ### PCA and Fst
 
@@ -30,7 +31,7 @@ I made a PCA plot with the code found in the folder
 For looking at Fst values, I split *S. dennistouni* into northern birds
 (sampled north of the putative hybrid zone) and southern individuals
 (those sampled from within the putative hybrid zone). Code for
-calculating Fst values and fixed differences in the folder
+calculating Fst values and fixed differences is in the folder
 [Fst](./PopulationStructure/Fst).
 
 ### *ADMIXTURE*
@@ -53,3 +54,11 @@ I then looked at heterozygosity and hybrid index, to determine what
 generation of hybrids were sampled. I performed two similar runs, both
 within the [TrianglePlot](./TrianglePlot) folder, were I chose different
 *S. dennistouni* to be one parental population.
+
+### Mitochondrial Data
+
+I downloaded the sequenced mitochondrial data from [Hosner et
+al. 2018](https://doi.org/10.1007/s10592-018-1085-4) and constructed a
+phylogenetic tree and mitochondrial haplotype network. Exact
+specifications for both visualizations can be found in the
+[MitochondrialData](./MitochondrialData) folder.
