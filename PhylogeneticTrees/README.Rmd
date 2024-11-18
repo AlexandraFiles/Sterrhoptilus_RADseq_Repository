@@ -23,6 +23,7 @@ I visualized [pops.phy.treefile](IQTree/pops.phy.treefile) with *FigTree*, roote
 I prepared the vcf file for *SplitsTree* by editing sample names and making a pairwise divergence matrix using the script [Sterrhoptilus_PreparationforSplitsTree](Sterrhoptilus_PreparationforSplitsTree.R), generating the [input text file](splitstree.nooutgroup.txt) for visualization in *SplitsTree*.
 
 ![Unrooted Phylogenetic Network Visualized with *SplitsTree*](Sterrhoptilus_PhylogeneticNetwork.svg)
+
 ### SNAPP
 
 I randomly subsampled my data to have three individuals from each species (putative hybrids were not eligible to be selected for subsampling) five separate times, using the [Preparation for Snapp script](./SNAPP/Sterrhoptilus_PreparationforSnappTree.R). This resulted in five nexus files, with random subsampling of the data that can be found in the [SNAPP folder](./SNAPP). For each nexus file, I used *BEAUti* to make .xml files for input into *BEAST*, specifying ... model specifications.  All nexus files, xml files, and output trees can be found in the [SNAPP folder](./SNAPP).

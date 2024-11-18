@@ -35,8 +35,14 @@ making a pairwise divergence matrix using the script
 generating the [input text file](splitstree.nooutgroup.txt) for
 visualization in *SplitsTree*.
 
-![Unrooted Phylogenetic Network Visualized with
-*SplitsTree*](Sterrhoptilus_PhylogeneticNetwork.svg) \### SNAPP
+<figure>
+<img src="Sterrhoptilus_PhylogeneticNetwork.svg"
+alt="Unrooted Phylogenetic Network Visualized with SplitsTree" />
+<figcaption aria-hidden="true">Unrooted Phylogenetic Network Visualized
+with <em>SplitsTree</em></figcaption>
+</figure>
+
+### SNAPP
 
 I randomly subsampled my data to have three individuals from each
 species (putative hybrids were not eligible to be selected for
