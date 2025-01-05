@@ -64,11 +64,11 @@ gq <- extract.gt(vcfR4, element = "GQ", as.numeric=TRUE)
 heatmap.bp(gq, rlabels = FALSE)
 
 #write out vcf with all SNPs
-vcfR::write.vcf(vcfR4, "Sterrhoptilus_vcf.gz")
+vcfR::write.vcf(vcfR4, "Sterrhoptilus.vcf.gz")
 
 #linkage filter vcf to thin SNPs to one per 500bp
 vcfR.thin<-distance_thin(vcfR4, min.distance = 500)
 # 5341 out of 16639 input SNPs were not located within 500 base-pairs of another SNP and were retained despite filtering
 
 #write out thinned vcf
-vcfR::write.vcf(vcfR.thin, "Sterrhoptilus_vcf_thinned.gz")
+vcfR::write.vcf(vcfR.thin, "Sterrhoptilus_thinned.vcf.gz")

@@ -6,7 +6,7 @@ library(SNPfiltR)
 #set working directory
 setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
 #read in vcf file
-v<-read.vcfR("./Data/Sterrhoptilus_vcf_thinned.gz")
+v<-read.vcfR("./Data/Sterrhoptilus_thinned.vcf.gz")
 
 #prepping for ADMIXTURE
 #must make chromosome names non-numeric

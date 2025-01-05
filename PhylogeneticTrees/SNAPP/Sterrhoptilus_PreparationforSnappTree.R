@@ -6,7 +6,7 @@ library(SNPfiltR)
 #set working directory
 setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
 #read in unlinked vcf
-vcfR <- read.vcfR("./Data/Sterrhoptilus_vcf_thinned.gz")
+vcfR <- read.vcfR("./Data/Sterrhoptilus_thinned.vcf.gz")
 #read in population file
 pops<-read.csv("./Data/Sterrhoptilus_SamplingData.csv")
 
@@ -18,19 +18,25 @@ pops<-pops[order(match(pops$ID,colnames(vcfR@gt)[-1])),]
 colnames(vcfR@gt)
 #rename column names to fix the affinis samples being labeled as nigrocapitatus and nigrocapitatus being labelled nigrocapitata
 colnames(vcfR@gt)[2:48]<-paste0("S_",pops$Species,"_",pops$Tissue)
-#dennistouni are columns 11-40, affinis are columns 43-46, nigrocapitatus are columns 41, 42, 47 and 48, capitalis are columns 2-10,
+#dennistouni are columns 11-40; locality 1 is 25-29, 2 is 30-37 and 40, 3 is 23 and 24, and 4 is 11-22, 38, and 39
+#affinis are columns 43-46; locality 5 is 46, 6 is 43-45
+#nigrocapitatus are columns 41, 42, 47 and 48; locality 7 is 41 and 42, 8 is 47 and 48
+#capitalis are columns 2-10; locality 9 is 2-6, 10 is 10, and 11 is 7-9
 #plateni are columns 49-51 and are completely excluded
-#exclude the following putative hybrids
-#putative hybrid affinis is column 46
-#dennistouni hybrids are columns 11-22 and 38 and 39
 
-#use a for loop to randomly down sample 3 samples from each of the 4 species, excluding birds from the hybrid zone
+#use a for loop to randomly down sample 2 samples from localities with more than 3 samples
 for (i in 1:5){
-  #randomly sample 3 individuals from each of the 4 lineages
-  sample.specs<-c(sample(c(23:37,40),size = 3),
-                  sample(c(43:45),size = 3),
-                  sample(c(41,42,47,48),size = 3),
-                  sample(c(2:10),size = 3))
+  sample.specs<-c(sample(c(25:29),size = 2), #locality 1
+                  sample(c(30:37),size = 2), #locality 2
+                  23,24, #locality 3
+                  sample(c(11:22,38,39),size = 2), #locality 4
+                  46, #locality 5
+                  sample(c(43:45),size = 2), #locality 6
+                  41,42, #locality 7
+                  47,48, #locality 8
+                  sample(c(2:6),size = 2), #locality 9
+                  10, #locality 10
+                  sample(c(7:9),size = 2))
 
   #subset the random samples plus the vcfR info (column 1)
   vcf.sub <- vcfR[,c(1,sample.specs)]
@@ -39,8 +45,7 @@ for (i in 1:5){
   #write filtered subset vcf to disk
   print(colnames(vcf.comp@gt)) #print sample names in retained vcf
   print(pops$populations[sample.specs-1]) #print the assigned taxa for each sample to make sure we have subsampled correctly
-  #uncomment if you want to save a vcf for each replicate, rather than just a nexus
-  #vcfR::write.vcf(vcf.comp, file = paste0("~/Desktop/phil.dicaeum/snapp/rep",i,".vcf.gz")) #write to disk
+  print(pops$Locality_number[sample.specs-1]) #print assigned locality to double check subsampling
   #extract genotype matrix
   vcf.gt<-extract.gt(vcf.comp, element = "GT", as.numeric = F, convertNA = T)
   #convert 'NA' to '?'

@@ -9,7 +9,7 @@ library(reshape2)
 #set working directory
 setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
 #read in vcf
-v<-read.vcfR("./Data/Sterrhoptilus_vcf.gz")
+v<-read.vcfR("./Data/Sterrhoptilus.vcf.gz")
 #read in population file
 pops <- read.csv("./Data/Sterrhoptilus_SamplingData.csv")
 

@@ -7,7 +7,7 @@ library(StAMPP)
 #set working directory
 setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
 #read in vcf file
-v<-read.vcfR("./Data/Sterrhoptilus_vcf.gz")
+v<-read.vcfR("./Data/Sterrhoptilus.vcf.gz")
 
 #remove outgroup samples
 v.sub<-v[,colnames(v@gt) != "S_plateni_19056" & colnames(v@gt) != "S_plateni_28305" & colnames(v@gt) != "S_plateni_28350"]
