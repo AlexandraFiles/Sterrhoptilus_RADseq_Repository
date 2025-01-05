@@ -14,10 +14,14 @@ This folder contains two scripts that make different triangle plots depending on
 
 The script titled [Sterrhoptilus_TrianglePlot_FarNorthernDen](Sterrhoptilus_TrianglePlot_FarNorthernDen.R) calculates the *S. dennistouni* parental population by using five *S. dennistouni* from the farthest northwest locality (see [sampling map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). In total, using a SNP completeness cutoff of 0.8, 214 fixed SNPs were found to calculate the hybrid index and interspecific heterozygosity.
 
-![Triangle Plot Using Five *S. dennistouni* Farthest from the Putative Hybrid Zone](Sterrhoptilus_FarNorthernDen_TrianglePlot.svg)
+##### Triangle Plot Using Five *S. dennistouni* Farthest from the Putative Hybrid Zone
+
+![](Sterrhoptilus_FarNorthernDen_TrianglePlot.svg)
 
 ### Using *S. dennistouni* from just outside putativ hybrid zone as a parental population
 
 The script titled [Sterrhoptilus_TrianglePlot_SlightlyNorthDen](Sterrhoptilus_TrianglePlot_SlightlyNorthDen.R) calculates the *S. dennistouni* parental population by using two *S. dennistouni* from slightly north and outside of the putative hybrid zone (see [sampling map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). This found 213 fixed SNPs (SNP completeness of > 0.8) to make the triangle plot.
 
-![Triangle Plot Using Two *S. dennistouni* Just Outside the Putative Hybrid Zone](Sterrhoptilus_SlightlyNorthDen_TrianglePlot.svg)
+##### Triangle Plot Using Two *S. dennistouni* Just Outside the Putative Hybrid Zone
+
+![](Sterrhoptilus_SlightlyNorthDen_TrianglePlot.svg)

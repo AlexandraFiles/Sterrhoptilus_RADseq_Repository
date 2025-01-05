@@ -16,12 +16,9 @@ map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). In total, using a
 SNP completeness cutoff of 0.8, 214 fixed SNPs were found to calculate
 the hybrid index and interspecific heterozygosity.
 
-<figure>
-<img src="Sterrhoptilus_FarNorthernDen_TrianglePlot.svg"
-alt="Triangle Plot Using Five S. dennistouni Farthest from the Putative Hybrid Zone" />
-<figcaption aria-hidden="true">Triangle Plot Using Five <em>S.
-dennistouni</em> Farthest from the Putative Hybrid Zone</figcaption>
-</figure>
+##### Triangle Plot Using Five *S. dennistouni* Farthest from the Putative Hybrid Zone
+
+![](Sterrhoptilus_FarNorthernDen_TrianglePlot.svg)
 
 ### Using *S. dennistouni* from just outside putativ hybrid zone as a parental population
 
@@ -33,9 +30,6 @@ dennistouni* from slightly north and outside of the putative hybrid zone
 found 213 fixed SNPs (SNP completeness of \> 0.8) to make the triangle
 plot.
 
-<figure>
-<img src="Sterrhoptilus_SlightlyNorthDen_TrianglePlot.svg"
-alt="Triangle Plot Using Two S. dennistouni Just Outside the Putative Hybrid Zone" />
-<figcaption aria-hidden="true">Triangle Plot Using Two <em>S.
-dennistouni</em> Just Outside the Putative Hybrid Zone</figcaption>
-</figure>
+##### Triangle Plot Using Two *S. dennistouni* Just Outside the Putative Hybrid Zone
+
+![](Sterrhoptilus_SlightlyNorthDen_TrianglePlot.svg)

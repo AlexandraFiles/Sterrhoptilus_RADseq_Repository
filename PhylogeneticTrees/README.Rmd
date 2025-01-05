@@ -16,7 +16,9 @@ The folder [IQTree](IQTree) contains the bash script for running *IQTree* and al
 
 I visualized [pops.phy.treefile](./IQTree/pops.phy.treefile) with *FigTree*, rooted on the outgroup *D. plateni*.
 
-![Phylogenetic Tree Rooted on *D. plateni* visualized with *FigTree*](./Sterrhoptilus_PhylogeneticTree.svg)
+##### Phylogenetic Tree Rooted on *D. plateni* visualized with *FigTree*
+
+![](./Sterrhoptilus_PhylogeneticTree.svg)
 
 ### SNAPP
 
@@ -33,6 +35,7 @@ Using the script [Sterrhoptilus_TreeMix](./TreeMix/Sterrhoptilus_TreeMix.R), I p
 In order to use the "Evanno" method in *OptM*, I needed to subset my linkage-filtered vcf to introduce more variation in likelihood estimations. I did this by splitting the 5341 SNPs equally into 5 vcfs of 1068 SNPs. The "Evanno" method suggested that delta m increased at 1 migration edge and even larger at 2, although the changes between delta ms were slight (see below figure).
 
 ##### Subsetted dataset "Evanno" method for delta m
+
 ![](./TreeMix/Sterrhoptilus_Subsetted_TreeMix_deltam.png)
 
 ##### *TreeMix* trees with one and two migration edges
@@ -44,4 +47,6 @@ In order to use the "Evanno" method in *OptM*, I needed to subset my linkage-fil
 
 I prepared the vcf file for *SplitsTree* by editing sample names and making a pairwise divergence matrix using the script [Sterrhoptilus_PreparationforSplitsTree](Sterrhoptilus_PreparationforSplitsTree.R), generating the [input text file](Sterrhoptilus_DivergenceMatrix.txt) for visualization in *SplitsTree*.
 
-![Unrooted Phylogenetic Network Visualized with *SplitsTree*](Sterrhoptilus_PhylogeneticNetwork.svg)
+##### Unrooted Phylogenetic Network Visualized with *SplitsTree*
+
+![](Sterrhoptilus_PhylogeneticNetwork.svg)

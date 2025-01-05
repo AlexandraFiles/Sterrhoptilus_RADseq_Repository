@@ -20,12 +20,9 @@ select the best AIC tree.
 I visualized [pops.phy.treefile](./IQTree/pops.phy.treefile) with
 *FigTree*, rooted on the outgroup *D. plateni*.
 
-<figure>
-<img src="./Sterrhoptilus_PhylogeneticTree.svg"
-alt="Phylogenetic Tree Rooted on D. plateni visualized with FigTree" />
-<figcaption aria-hidden="true">Phylogenetic Tree Rooted on <em>D.
-plateni</em> visualized with <em>FigTree</em></figcaption>
-</figure>
+##### Phylogenetic Tree Rooted on *D. plateni* visualized with *FigTree*
+
+![](./Sterrhoptilus_PhylogeneticTree.svg)
 
 ### SNAPP
 
@@ -92,9 +89,6 @@ making a pairwise divergence matrix using the script
 generating the [input text file](Sterrhoptilus_DivergenceMatrix.txt) for
 visualization in *SplitsTree*.
 
-<figure>
-<img src="Sterrhoptilus_PhylogeneticNetwork.svg"
-alt="Unrooted Phylogenetic Network Visualized with SplitsTree" />
-<figcaption aria-hidden="true">Unrooted Phylogenetic Network Visualized
-with <em>SplitsTree</em></figcaption>
-</figure>
+##### Unrooted Phylogenetic Network Visualized with *SplitsTree*
+
+![](Sterrhoptilus_PhylogeneticNetwork.svg)

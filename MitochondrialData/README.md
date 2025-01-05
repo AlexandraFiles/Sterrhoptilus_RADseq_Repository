@@ -26,23 +26,15 @@ file](./mitochondrial.trees) and used *TreeAnnotator*, removing the
 first 10% of runs as burn-in, to make a [maximum clade credibility
 tree](./mitochondrial_ML.tree). I visualized this tree with *FigTree*.
 
-<figure>
-<img src="Mitochondrial_ML_Tree.svg"
-alt="Mitochondrial Tree Rooted on D. plateni visualized with FigTree. Dirty yellow dots by four S. dennistouni are individuals from the putative hybrid zone." />
-<figcaption aria-hidden="true">Mitochondrial Tree Rooted on <em>D.
-plateni</em> visualized with <em>FigTree</em>. Dirty yellow dots by four
-<em>S. dennistouni</em> are individuals from the putative hybrid
-zone.</figcaption>
-</figure>
+##### Mitochondrial Tree Rooted on *D. plateni* visualized with *FigTree*. Dirty yellow dots by four *S. dennistouni* are individuals from the putative hybrid zone.
+
+![](Mitochondrial_ML_Tree.svg)
 
 ### Haplotype Network
 
 Using the aligned nexus file, I made a TCS haplotype network using
 *PopART*.
 
-<figure>
-<img src="Mitochondrial_HaplotypeNetwork.svg"
-alt="Mitochondrial Haplotype Network" />
-<figcaption aria-hidden="true">Mitochondrial Haplotype
-Network</figcaption>
-</figure>
+##### Mitochondrial Haplotype Network
+
+![](Mitochondrial_HaplotypeNetwork.svg)

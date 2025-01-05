@@ -19,14 +19,9 @@ subsequent Z-score of 1.1569 yielding a p-value of 0.2473 (see the
 [resulting text
 files](./Dsuite_betweenAffinisandNigrocapitatus/stachyris.pops_affinis_hybrid_tree.txt).
 
-<figure>
-<img
-src="./Dsuite_betweenAffinisandNigrocapitatus/Dsuite_TreeVisualized.PNG"
-alt="Tree Used with Dsuite to test for gene flow between S. nigrocapitatus and S. affinis" />
-<figcaption aria-hidden="true">Tree Used with Dsuite to test for gene
-flow between <em>S. nigrocapitatus</em> and <em>S.
-affinis</em></figcaption>
-</figure>
+##### Tree Used with Dsuite to test for gene flow between *S. nigrocapitatus* and *S. affinis*
+
+![](./Dsuite_betweenAffinisandNigrocapitatus/Dsuite_TreeVisualized.PNG)
 
 ### Testing for Shared Alleles between *S. affinis* and *S. dennistouni*
 
@@ -48,33 +43,23 @@ significant Patterson’s D statistic of 0.64199, with a subsequent
 Z-score of 16.035 leading to a p-value \< 0.0001, but this was expected
 since the guide tree was not supported by phylogenetic reconstructions.
 
-<figure>
-<img
-src="./Dsuite_betweenDenandAff_CapasOutgroup/Dsuite_TreeVisualized.PNG"
-alt="Tree Used with Dsuite to test for gene flow between S. dennistouni and S. affinis, with all four Sterrhoptilus species" />
-<figcaption aria-hidden="true">Tree Used with Dsuite to test for gene
-flow between <em>S. dennistouni</em> and <em>S. affinis</em>, with all
-four <em>Sterrhoptilus</em> species</figcaption>
-</figure>
+##### Tree Used with Dsuite to test for gene flow between *S. dennistouni* and *S. affinis*, with all four *Sterrhoptilus* species
+
+![](./Dsuite_betweenDenandAff_CapasOutgroup/Dsuite_TreeVisualized.PNG)
 
 #### *S. dennistouni* split into birds from putative hybrid zone and birds to the north of it
 
 To better reflect the phylogenetic tree recovered, I split the *S.
 dennistouni* population into two: one consisting of all birds outside
 the putative hybrid zone and one consisting of all birds from Aurora
-(see [sampling map](link_here)). I used the below
-[tree](./Dsuite_betweenDenandAff_DenSplit/nwk.tre.txt).
+(see [sampling map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). I
+used the below [tree](./Dsuite_betweenDenandAff_DenSplit/nwk.tre.txt).
 
 I received a significant Patterson’s D statistic of 0.210524, with a
 subsequent Z-score of 4.68472 yielding a p-value of 1.4017e-06 (see the
 [resulting text
 files](./Dsuite_betweenDenandAff_DenSplit/stachyris.pops_densplit_tree.txt)).
 
-<figure>
-<img src="./Dsuite_betweenDenandAff_DenSplit/Dsuite_TreeVisualized.PNG"
-alt="Tree Used with Dsuite to test for gene flow between S. dennistouni and S. affinis, with S. dennistouni populations split as from the putative hybrid zone and not from this locality" />
-<figcaption aria-hidden="true">Tree Used with Dsuite to test for gene
-flow between <em>S. dennistouni</em> and <em>S. affinis</em>, with
-<em>S. dennistouni</em> populations split as from the putative hybrid
-zone and not from this locality</figcaption>
-</figure>
+##### Tree Used with Dsuite to test for gene flow between *S. dennistouni* and *S. affinis*, with *S. dennistouni* populations split as from the putative hybrid zone and not from this locality
+
+![](./Dsuite_betweenDenandAff_DenSplit/Dsuite_TreeVisualized.PNG)

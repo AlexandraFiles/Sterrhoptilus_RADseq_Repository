@@ -49,9 +49,6 @@ here](./QC_and_Filtering/Sterrhoptilus_SNPfiltering.R)). This script can
 be run to visualize many different plots to look at SNP quality and
 depth of coverage.
 
-<figure>
-<img src="./QC_and_Filtering/ProportionMissingData_bySample.svg"
-alt="Proportion Missing per Sample" />
-<figcaption aria-hidden="true">Proportion Missing per
-Sample</figcaption>
-</figure>
+##### Proportion Missing per Sample
+
+![](./QC_and_Filtering/ProportionMissingData_bySample.svg)
