@@ -8,20 +8,22 @@ output: github_document
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>", echo = TRUE)
 ```
 
-This folder contains two scripts that make different triangle plots depending on the inclusion or exclusion of the most northern *S. dennistouni*.
+This folder contains the [script](./Sterrhoptilus_TrianglePlot.R) to use [Ben Wien's triangulaR](https://github.com/omys-omics/triangulaR) R package that generates the below plots. 
 
-### Using *S. dennistouni* from northern Luzon as a parental population
+The [popmap](./Sterrhoptilus_popmap.txt) designates all *S. dennistouni* from the putative hybrid zone as "dennistouni_south", and all other *S. dennistouni*, used as the other parental population, are "dennistouni_north". The single *S. affinis* gathered further north of the other *S. affinis* is called "affinis_north" and was not used when calculating the differences between parental populations.
 
-The script titled [Sterrhoptilus_TrianglePlot_FarNorthernDen](Sterrhoptilus_TrianglePlot_FarNorthernDen.R) calculates the *S. dennistouni* parental population by using five *S. dennistouni* from the farthest northwest locality (see [sampling map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). In total, using a SNP completeness cutoff of 0.8, 214 fixed SNPs were found to calculate the hybrid index and interspecific heterozygosity.
+##### 70% Completeness (217 SNPs)
 
-##### Triangle Plot Using Five *S. dennistouni* Farthest from the Putative Hybrid Zone
+![](Sterrhoptilus_TrianglePlot_70Complete.svg)
 
-![](Sterrhoptilus_FarNorthernDen_TrianglePlot.svg)
+##### 80% Completeness (163 SNPs)
 
-### Using *S. dennistouni* from just outside putativ hybrid zone as a parental population
+![](Sterrhoptilus_TrianglePlot_80Complete.svg)
 
-The script titled [Sterrhoptilus_TrianglePlot_SlightlyNorthDen](Sterrhoptilus_TrianglePlot_SlightlyNorthDen.R) calculates the *S. dennistouni* parental population by using two *S. dennistouni* from slightly north and outside of the putative hybrid zone (see [sampling map](../SamplingMap/Sterrhoptilus_SamplingMap.svg)). This found 213 fixed SNPs (SNP completeness of > 0.8) to make the triangle plot.
+##### 90% Completeness (106 SNPs)
 
-##### Triangle Plot Using Two *S. dennistouni* Just Outside the Putative Hybrid Zone
+![](Sterrhoptilus_TrianglePlot_90Complete.svg)
 
-![](Sterrhoptilus_SlightlyNorthDen_TrianglePlot.svg)
+##### 100% Completeness (74 SNPs)
+
+![](Sterrhoptilus_TrianglePlot_100Complete.svg)
