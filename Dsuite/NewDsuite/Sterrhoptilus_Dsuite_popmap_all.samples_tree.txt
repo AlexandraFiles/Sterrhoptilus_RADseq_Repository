@@ -1,0 +1,11 @@
+P1	P2	P3	Dstatistic	Z-score	p-value	f4-ratio	BBAA	ABBA	BABA
+dennistouni_north	affinis	capitalis	0.0281259	0.554526	0.579219	0.0136607	277.77	75.5079	71.3767
+dennistouni_south	affinis	capitalis	0.0314969	0.637215	0.523985	0.0139174	309.105	69.1213	64.9
+capitalis	nigrocapitatus	affinis	0.246744	5.22123	1.77738e-07	0.171712	119.906	176.364	106.555
+dennistouni_north	dennistouni_south	affinis	0.230032	9.49949	2.3e-16	0.177589	156.442	101.367	63.4529
+dennistouni_north	affinis	nigrocapitatus	0.0693414	1.63136	0.102814	0.031313	208.74	81.6749	71.0824
+dennistouni_south	affinis	nigrocapitatus	0.0549511	1.41663	0.15659	0.0226521	236.913	72.9741	65.3719
+dennistouni_south	dennistouni_north	capitalis	0.00266358	0.093616	0.925414	0.000952758	356.691	54.4392	54.1499
+capitalis	nigrocapitatus	dennistouni_north	0.237423	5.91908	3.23748e-09	0.188121	125.141	172.917	106.562
+capitalis	nigrocapitatus	dennistouni_south	0.244734	5.62736	1.82988e-08	0.209279	125.299	175.622	106.562
+dennistouni_north	dennistouni_south	nigrocapitatus	0.0225928	0.681993	0.495244	0.00750412	285.102	57.6174	55.0715

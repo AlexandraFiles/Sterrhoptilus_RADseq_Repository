@@ -1,0 +1,9 @@
+branch	branch_descendants	Outgroup	affinis	nigrocapitatus	capitalis	dennistouni_north	dennistouni_south
+b2	affinis,dennistouni_north,dennistouni_south	nan	nan	nan	nan	nan	nan
+b3	nigrocapitatus,capitalis	nan	nan	nan	nan	nan	nan
+b4	dennistouni_north,dennistouni_south	nan	nan	0	0	nan	nan
+b5	affinis	nan	nan	0	0	nan	nan
+b6	nigrocapitatus	nan	0.171712	nan	nan	0.188121	0.209279
+b7	capitalis	nan	0	nan	nan	0	0
+b8	dennistouni_north	nan	0	0	0	nan	nan
+b9	dennistouni_south	nan	0.177589	0	0	nan	nan
