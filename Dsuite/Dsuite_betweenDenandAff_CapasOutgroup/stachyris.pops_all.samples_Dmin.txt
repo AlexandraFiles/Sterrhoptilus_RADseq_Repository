@@ -1,2 +1,0 @@
-P1	P2	P3	Dstatistic	Z-score	p-value	f4-ratio	BBAA	ABBA	BABA
-dennistouni	affinis	nigrocapitatus	0.0798184	1.20774	0.113574	0.0253483	68.4847	19.159	16.3266

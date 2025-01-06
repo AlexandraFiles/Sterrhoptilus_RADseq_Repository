@@ -1,2 +1,0 @@
-P1	P2	P3	Dstatistic	Z-score	p-value	f4-ratio	BBAA	ABBA	BABA
-N_Luzon_den	S_Luzon_den	affinis	0.210524	4.68472	1.4017e-06	0.165836	59.6653	24.3793	15.8996
