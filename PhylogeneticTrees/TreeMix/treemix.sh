@@ -9,20 +9,19 @@
 #SBATCH --time=100
 
 #convert vcf into treemix file
-/home/a619f280/work/programs/stacks-2.68/populations --in-vcf Sterrhoptilus_thinned.vcf.gz -O . --treemix -M treemix_popmap.txt
+/home/a619f280/work/programs/stacks-2.68/populations --in-vcf Sterrhoptilus_thinned_nooutgroup.vcf.gz -O . --treemix -M treemix_popmap_nooutgroup.txt
 #remove stacks header
-echo "$(tail -n +2 Sterrhoptilus_thinned.p.treemix)" > Sterrhoptilus_thinned.p.treemix
+echo "$(tail -n +2 Sterrhoptilus_thinned_nooutgroup.p.treemix)" > Sterrhoptilus_thinned_nooutgroup.p.treemix
 #gzip file for input to treemix
-gzip Sterrhoptilus_thinned.p.treemix
+gzip Sterrhoptilus_thinned_nooutgroup.p.treemix
 
 #run treemix with m0
-/panfs/pfs.local/work/bi/bin/treemix-1.13/src/treemix -i Sterrhoptilus_thinned.p.treemix.gz -root plateni -o treem0
+/panfs/pfs.local/work/bi/bin/treemix-1.13/src/treemix -i Sterrhoptilus_thinned_nooutgroup.p.treemix.gz -o ./treemix_results/Sterrhoptilus_treemix.1.0 -root capitalis
 
-#add 1 migration edge
-/panfs/pfs.local/work/bi/bin/treemix-1.13/src/treemix -i Sterrhoptilus_thinned.p.treemix.gz -m 1 -g treem0.vertices.gz treem0.edges.gz -o treem1
-
-#add 2 migration edges
-/panfs/pfs.local/work/bi/bin/treemix-1.13/src/treemix -i Sterrhoptilus_thinned.p.treemix.gz -m 1 -g treem1.vertices.gz treem1.edges.gz -o treem2
-
-#add 3 migration edges
-/panfs/pfs.local/work/bi/bin/treemix-1.13/src/treemix -i Sterrhoptilus_thinned.p.treemix.gz -m 1 -g treem2.vertices.gz treem2.edges.gz -o treem3
+for m in {1..3}; do
+    for i in {1..5}; do
+        # Generate random seed
+        s=$RANDOM
+        /panfs/pfs.local/work/bi/bin/treemix-1.13/src/treemix -i Sterrhoptilus_thinned_nooutgroup.p.treemix.gz -o ./treemix_results/Sterrhoptilus_treemix.${i}.${m} -m ${m} -seed ${s} -root capitalis
+    done
+done

@@ -46,13 +46,12 @@ parameters with ESSs over 1000.
 
 I used the [linkage filtered
 dataset](../Data/Sterrhoptilus_thinned.vcf.gz) to explore adding
-migration edges to the phylogenetic tree. I designated birds from the
-hybrid zone as “dennistouni_south” in my [popmap
-file](./TreeMix/treemix_popmap.txt). I added between 1-5 migration edges
-(0 migration edges is calculated as the null model) and performed each
-analysis 5 times, rooting on *D. plateni*. I ran *TreeMix* with 0 added
-migration edges only once to get an understanding of the percent
-variance explained.
+migration edges to the phylogenetic tree. I first removed *D. plateni*
+and designated birds from the hybrid zone as “dennistouni_south” in my
+[popmap file](./TreeMix/treemix_popmap_nooutgroup.txt). I added between
+1-3 migration edges (3+ migration edges failed to find possible edges to
+add) and performed each analysis 5 times, rooting on *S. capitalis*. I
+ran *TreeMix* with 0 added migration edges only once.
 
 Using the script
 [Sterrhoptilus_TreeMix](./TreeMix/Sterrhoptilus_TreeMix.R), I plotted my
@@ -60,11 +59,11 @@ results, relying on the [plotting_funcs
 script](./TreeMix/plotting_funcs.R) provided with the *TreeMix* program.
 To assess which model best fit the data I looked at percent variance
 explained by each model. The tree with 0 migration edges explained
-99.89% of the data, surprassing the 99.8% threshold by [Pickrell and
-Pitchard, 2012](https://doi.org/10.1371/journal.pgen.1002967). Adding
-one migration edge brought the % explained variance to 99.99%. Using the
-r package *OptM* “linear method”, all change points for the different
-models were estimated around 1 added edge.
+99.74% of the data, following short of the 99.8% threshold by [Pickrell
+and Pitchard, 2012](https://doi.org/10.1371/journal.pgen.1002967).
+Adding one migration edge brought the % explained variance to 99.97%.
+Using the r package *OptM* “linear method”, all change points for the
+different models were estimated around 1 added edge.
 
 In order to use the “Evanno” method in *OptM*, I needed to subset my
 linkage-filtered vcf to introduce more variation in likelihood
@@ -73,13 +72,17 @@ of 1068 SNPs. The “Evanno” method suggested that delta m increased at 1
 migration edge and even larger at 2, although the changes between delta
 ms were slight (see below figure).
 
-##### Subsetted dataset “Evanno” method for delta m
-
-![](./TreeMix/Sterrhoptilus_Subsetted_TreeMix_deltam.png)
-
 ##### *TreeMix* trees with one and two migration edges
 
-![](./TreeMix/Sterrhoptilus_TreeMix_Trees.svg)
+![](./TreeMix/Sterrhoptilus_TreeMix_1edge.svg)
+
+##### Percent variance explained by adding migration edges
+
+![](./TreeMix/Sterrhoptilus_TreeMix_PercentVarianceExplained.svg)
+
+##### Subsetted dataset “Evanno” method for delta m
+
+![](./TreeMix/Sterrhoptilus_TreeMixSubsetted_deltam.png)
 
 ### SplitsTree
 
