@@ -32,7 +32,7 @@ sterrhoptilus.pca.scores<-as.data.frame(sterrhoptilus.pca$scores)
 rownames(sterrhoptilus.pca.scores) == pops$ID
 
 #add in the relevant population identifier you would like to color-code by
-sterrhoptilus.pca.scores$pop<-pops$species
+sterrhoptilus.pca.scores$pop<-pops$populations
 
 #find porportion of variance explained by PC1
 sterrhoptilus.pca[["eig"]][1]/sum(sterrhoptilus.pca[["eig"]])
@@ -43,12 +43,12 @@ sterrhoptilus.pca[["eig"]][2]/sum(sterrhoptilus.pca[["eig"]])
 
 ggplot(sterrhoptilus.pca.scores, aes(x=PC1, y=PC2)) +
   geom_point(aes(fill=pop), pch=21, size=5)+
-  scale_fill_manual(values=c("#f4b71c","#6f6f6f","#242424","#d83406"), name = "Populations",
-                    breaks = c("dennistouni","affinis","nigrocapitatus","capitalis"),
-                    labels = c(expression(italic("S. dennistouni")), expression(italic("S. affinis")),
-                               expression(italic("S. nigrocapitatus")), expression(italic("S. capitalis"))))+
+  scale_fill_manual(values=c("#f4b71c","#aa8800","#6f6f6f","#242424","#d83406"), name = "Populations",
+                    breaks = c("Northern S. dennistouni","Southern S. dennistouni", "S. affinis","S. nigrocapitatus","S. capitalis"),
+                    labels = c(expression(italic("dennistouni")), "Putative Hybrids", expression(italic("affinis")),
+                               expression(italic("nigrocapitatus")), expression(italic("capitalis"))))+
   xlab("PC1, 26.3% variance explained")+
   ylab("PC2, 7.0% variance explained")+
   theme_classic() +
-  theme(legend.position = c(0.12,0.78), legend.justification = c(0.01, 0.01),
+  theme(legend.position = c(0.12,0.58), legend.justification = c(0.01, 0.01),
       legend.background = element_blank(), legend.spacing.y = unit(0.01, "cm"), legend.text.align = 0)
