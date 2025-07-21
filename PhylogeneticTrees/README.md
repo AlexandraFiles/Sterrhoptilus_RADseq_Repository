@@ -32,15 +32,21 @@ script](./SNAPP/Sterrhoptilus_PreparationforSnappTree.R). This resulted
 in five nexus files, with random subsampling of the data that can be
 found in the [SNAPP folder](./SNAPP). I manually changed the nexus
 datatype from “DNA” to “SNP”. For each nexus file, I used *BEAUti* to
-make .xml files for input into *BEAST*, specifying … model
-specifications. All nexus files, xml files, and output trees can be
-found in the [SNAPP folder](./SNAPP).
+make .xml files for input into *BEAST*, using the default *SNAPP*
+template (excluding non-polymorphic sites) that ran for an MCMC chain
+length of 5 million with trees logged every 1000 steps. All sampling,
+nexus, xml, and output tree files for each run can be found in the
+[SNAPP folder](./SNAPP) under the respective run number.
 
-All species trees converged on the same topology, tree from
-[1.nex](./SNAPP/1.nex) is shown below. With the exception of two
+All species trees converged on the same topology, the combined consensus
+trees from all 5 runs are shown below. With the exception of two
 parameters from the third run of *SNAPP*, all parameters are well over
 the effective sample size threshold of 200, with the majority of the
 parameters with ESSs over 1000.
+
+##### Consensus Trees from 5 Independent *SNAPP* Runs
+
+![](./SNAPP/Sterrhoptilus_CombinedConsensusSnappTrees.svg)
 
 ### TreeMix
 
