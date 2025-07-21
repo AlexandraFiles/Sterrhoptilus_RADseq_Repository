@@ -108,7 +108,7 @@ heat$mixed<-heat$value
 heat$mixed[x]<-heat$fixed[x]
 
 #plot with labels
-ggplot(data = heat, aes(x=Var1, y=Var2, fill=value)) +
+matrix <- ggplot(data = heat, aes(x=Var1, y=Var2, fill=value)) +
   geom_tile()+
   geom_text(data=heat,aes(label=round(mixed, 2)), size=4)+
   theme_void()+
@@ -116,3 +116,5 @@ ggplot(data = heat, aes(x=Var1, y=Var2, fill=value)) +
   theme(axis.text.x = element_text(angle = 45, vjust=.9, hjust = .9, size=12),
         axis.text.y = element_text(angle = 45, hjust = 1, size=12),
         axis.title.x = element_blank(), axis.title.y = element_blank())
+
+ggsave("Fst_matrix.svg", matrix, width = 5.5,height = 3.5,units = "in")

@@ -13,6 +13,8 @@ plot_tree("./PhylogeneticTrees/Treemix/treemix_results/Sterrhoptilus_treemix.1.0
 plot_tree("./PhylogeneticTrees/Treemix/treemix_results/Sterrhoptilus_treemix.1.1")
 plot_tree("./PhylogeneticTrees/Treemix/treemix_results/Sterrhoptilus_treemix.1.2")
 plot_tree("./PhylogeneticTrees/Treemix/treemix_results/Sterrhoptilus_treemix.1.3")
+#12 looks good, 21, 24, 29
+#using 24
 
 #plot to see how much variance is explained by each edge
 m=NULL

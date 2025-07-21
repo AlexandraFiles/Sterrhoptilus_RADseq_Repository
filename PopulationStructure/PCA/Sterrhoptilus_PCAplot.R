@@ -43,7 +43,7 @@ sterrhoptilus.pca[["eig"]][2]/sum(sterrhoptilus.pca[["eig"]])
 
 ggplot(sterrhoptilus.pca.scores, aes(x=PC1, y=PC2)) +
   geom_point(aes(fill=pop), pch=21, size=5)+
-  scale_fill_manual(values=c("#f4b71c","#aa8800","#6f6f6f","#242424","#d83406"), name = "Populations",
+  scale_fill_manual(values=c("#f4b71c","#b79300","#6f6f6f","#242424","#d83406"), name = "Populations",
                     breaks = c("Northern S. dennistouni","Southern S. dennistouni", "S. affinis","S. nigrocapitatus","S. capitalis"),
                     labels = c(expression(italic("dennistouni")), "Putative Hybrids", expression(italic("affinis")),
                                expression(italic("nigrocapitatus")), expression(italic("capitalis"))))+
