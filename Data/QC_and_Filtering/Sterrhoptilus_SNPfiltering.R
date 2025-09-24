@@ -5,7 +5,7 @@ library(devtools)
 library(vcfR)
 
 setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/Sterrhoptilus_RADseq_Repository/")
-vcfR <- read.vcfR("./Data/Running_Stacks/n4.vcf")
+vcfR <- read.vcfR("./Data/Running_Stacks/n4.vcf.gz")
 vcfR <- vcfR[,colnames(vcfR@gt) !="S_whiteheadi_18001"] #removing the one whiteheadi
 popmap<-data.frame(id=colnames(vcfR@gt)[2:length(colnames(vcfR@gt))],pop=substr(colnames(vcfR@gt)[2:length(colnames(vcfR@gt))], 3,9))
 
@@ -26,7 +26,7 @@ vcfR2<-max_depth(vcfR1, maxdepth = 125)
 missing_by_sample(vcfR=vcfR2, popmap = popmap)
 
 #run function to drop samples above the threshold we want from the vcf
-vcfR3<-missing_by_sample(vcfR=vcfR2, cutoff = .97)
+vcfR3<-missing_by_sample(vcfR=vcfR2, cutoff = .95)
 
 #subset popmap to only include retained individuals
 popmap1<-popmap[popmap$id %in% colnames(vcfR3@gt),]

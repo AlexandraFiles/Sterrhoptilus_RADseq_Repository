@@ -59,8 +59,8 @@ par(mar = c(0.5, 0.5, 1, 1), oma = c(6, 0.5, 1, 1))
 par(mfrow=c(1,1))
 
 #plot barplots using the sorted runs
-barplot(t(as.matrix(runs[[3]])), col=c("#242424","#f4b71c","#d83406"), ylab="Ancestry", border="black" , names.arg = F)
-barplot(t(as.matrix(runs[[4]])), col=c("#d83406","#242424","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
+barplot(t(as.matrix(runs[[3]])), col=c("#242424","#f4b71c","#b22b04"), ylab="Ancestry", border="black" , names.arg = F)
+barplot(t(as.matrix(runs[[4]])), col=c("#b22b04","#242424","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
 #for singleton runs, use the following order for correct colors
 #barplot(t(as.matrix(runs[[4]])), col=c("#242424", "#d83406","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
 
@@ -68,7 +68,7 @@ barplot(t(as.matrix(runs[[4]])), col=c("#d83406","#242424","#f4b71c","#6f6f6f"),
 segments(x0 = 0.2, y0 = -0.03,x1 = 35.8, y1 = -0.03, xpd = NA, lwd = 3, col = "#f4b71c")
 segments(x0 = 36.3, y0 = -0.03,x1 = 40.8, y1 = -0.03, xpd = NA, lwd = 3, col = "#6f6f6f")
 segments(x0 = 41.2, y0 = -0.03,x1 = 45.6, y1 = -0.03, xpd = NA, lwd = 3, col = "#242424")
-segments(x0 = 46, y0 = -0.03,x1 = 56.4, y1 = -0.03, xpd = NA, lwd = 3, col = "#d83406")
+segments(x0 = 46, y0 = -0.03,x1 = 56.4, y1 = -0.03, xpd = NA, lwd = 3, col = "#b22b04")
 #add text for labels
 text(x = 20.5, y = -0.14, labels = "S. dennistouni", xpd = NA, srt = -45)
 text(x = 53.4, y = -0.119, labels = "S. capitalis", xpd = NA, srt = -45)
@@ -80,10 +80,10 @@ par(mar = c(0, 3, 0.5, 0.5), oma = c(6, 0.25, 0, 0))
 par(mfrow=c(2,1))
 
 #plot barplots using the sorted runs
-barplot(t(as.matrix(runs[[3]])), col=c("#242424","#f4b71c","#d83406"), ylab="Ancestry", border="black" , names.arg = F)
+barplot(t(as.matrix(runs[[3]])), col=c("#242424","#f4b71c","#b22b04"), ylab="Ancestry", border="black" , names.arg = F)
 #for singleton runs, use the following order for colors
 #barplot(t(as.matrix(runs[[3]])), col=c("#f4b71c", "#d83406", "#242424"), ylab="Ancestry", border="black" , names.arg = F)
-barplot(t(as.matrix(runs[[4]])), col=c("#d83406","#242424","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
+barplot(t(as.matrix(runs[[4]])), col=c("#b22b04","#242424","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
 #for singleton runs, use the following order for correct colors
 #barplot(t(as.matrix(runs[[4]])), col=c("#242424", "#d83406","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
 
@@ -91,7 +91,7 @@ barplot(t(as.matrix(runs[[4]])), col=c("#d83406","#242424","#f4b71c","#6f6f6f"),
 segments(x0 = 0.2, y0 = -0.03,x1 = 35.8, y1 = -0.03, xpd = NA, lwd = 3, col = "#f4b71c")
 segments(x0 = 36.3, y0 = -0.03,x1 = 40.8, y1 = -0.03, xpd = NA, lwd = 3, col = "#6f6f6f")
 segments(x0 = 41.2, y0 = -0.03,x1 = 45.6, y1 = -0.03, xpd = NA, lwd = 3, col = "#242424")
-segments(x0 = 46, y0 = -0.03,x1 = 56.4, y1 = -0.03, xpd = NA, lwd = 3, col = "#d83406")
+segments(x0 = 46, y0 = -0.03,x1 = 56.4, y1 = -0.03, xpd = NA, lwd = 3, col = "#b22b04")
 #add text for labels
 text(x = 20.5, y = -0.25, labels = "S. dennistouni", xpd = NA, srt = -45)
 text(x = 53.4, y = -0.21, labels = "S. capitalis", xpd = NA, srt = -45)

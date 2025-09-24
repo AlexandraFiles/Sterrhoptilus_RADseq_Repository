@@ -6,7 +6,7 @@
    height="848.96411"
    version="1.1"
    id="svg197"
-   sodipodi:docname="Final_Tree.svg"
+   sodipodi:docname="Sterrhoptilus_PhylogeneticTree.svg"
    xml:space="preserve"
    inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -23,14 +23,14 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="1.0702618"
-     inkscape:cx="220.5068"
-     inkscape:cy="283.57548"
+     inkscape:cx="220.97397"
+     inkscape:cy="657.31581"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g197-7"><inkscape:grid
+     inkscape:current-layer="g197"><inkscape:grid
        id="grid200"
        units="px"
        originx="-960.63716"
@@ -55,7 +55,7 @@
      id="g197"
      style="display:inline"
      transform="translate(-960.63716)"><rect
-       style="opacity:1;fill:#d83406;fill-opacity:1;fill-rule:nonzero;stroke:#d83406;stroke-width:0.695594;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#b22b04;fill-opacity:1;fill-rule:nonzero;stroke:#d83406;stroke-width:0.695594;stroke-dasharray:none;stroke-opacity:1"
        id="rect197"
        width="2.8773894"
        height="128.15906"
@@ -880,7 +880,7 @@
        transform="translate(-8.7824259,20.116432)"><tspan
          x="1481.8555"
          y="340.02847"
-         id="tspan1">From putative </tspan><tspan
+         id="tspan3">From putative </tspan><tspan
          x="1481.8555"
          y="362.22847"
-         id="tspan2">hybrid zone</tspan></text></g></svg>
+         id="tspan4">hybrid zone</tspan></text></g></svg>

@@ -22,14 +22,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.83071161"
-     inkscape:cx="707.82687"
+     inkscape:cx="418.31605"
      inkscape:cy="161.90938"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g311" />
+     inkscape:current-layer="g312" />
   <title
      id="title1">PopART SVG Image</title>
   <desc
@@ -2390,12 +2390,14 @@
          font-size="8.25px"
          font-weight="400"
          font-style="normal"
-         id="g178">
+         id="g178"
+         style="fill:#b22b04;fill-opacity:1">
         <path
            vector-effect="none"
            fill-rule="evenodd"
            d="m 697.945,223.929 c 0,4.142 -3.358,7.5 -7.5,7.5 -4.142,0 -7.5,-3.358 -7.5,-7.5 0,-4.142 3.358,-7.5 7.5,-7.5 4.142,0 7.5,3.358 7.5,7.5"
-           id="path177" />
+           id="path177"
+           style="fill:#b22b04;fill-opacity:1" />
       </g>
       <g
          fill="#d83406"
@@ -2410,12 +2412,14 @@
          font-size="8.25px"
          font-weight="400"
          font-style="normal"
-         id="g199">
+         id="g199"
+         style="fill:#b22b04;fill-opacity:1">
         <path
            vector-effect="none"
            fill-rule="evenodd"
            d="m 674.365,304.424 c 0,11.715 -9.498,21.213 -21.213,21.213 -11.716,0 -21.214,-9.498 -21.214,-21.213 0,-11.716 9.498,-21.214 21.214,-21.214 11.715,0 21.213,9.498 21.213,21.214"
-           id="path198" />
+           id="path198"
+           style="fill:#b22b04;fill-opacity:1" />
       </g>
     </g>
     <g
@@ -4092,12 +4096,14 @@
        font-size="8.25px"
        font-weight="400"
        font-style="normal"
-       id="g298">
+       id="g298"
+       style="fill:#b22b04;fill-opacity:1">
       <path
          vector-effect="non-scaling-stroke"
          fill-rule="evenodd"
          d="M 15,7.5 C 15,11.6421 11.6421,15 7.5,15 3.35786,15 0,11.6421 0,7.5 0,3.35786 3.35786,0 7.5,0 11.6421,0 15,3.35786 15,7.5"
-         id="path297" />
+         id="path297"
+         style="fill:#b22b04;fill-opacity:1" />
     </g>
     <g
        fill="none"

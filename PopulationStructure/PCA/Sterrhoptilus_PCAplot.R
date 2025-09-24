@@ -31,7 +31,7 @@ sterrhoptilus.pca.scores<-as.data.frame(sterrhoptilus.pca$scores)
 #all should be true
 rownames(sterrhoptilus.pca.scores) == pops$ID
 
-#add in the relevant population identifier you would like to color-code by
+#add in the relevant population identifiers to color code by
 sterrhoptilus.pca.scores$pop<-pops$populations
 
 #find porportion of variance explained by PC1
@@ -43,7 +43,7 @@ sterrhoptilus.pca[["eig"]][2]/sum(sterrhoptilus.pca[["eig"]])
 
 ggplot(sterrhoptilus.pca.scores, aes(x=PC1, y=PC2)) +
   geom_point(aes(fill=pop), pch=21, size=5)+
-  scale_fill_manual(values=c("#f4b71c","#b79300","#6f6f6f","#242424","#d83406"), name = "Populations",
+  scale_fill_manual(values=c("#f4b71c","#b79300","#6f6f6f","#242424","#b22b04"), name = "Populations",
                     breaks = c("Northern S. dennistouni","Southern S. dennistouni", "S. affinis","S. nigrocapitatus","S. capitalis"),
                     labels = c(expression(italic("dennistouni")), "Putative Hybrids", expression(italic("affinis")),
                                expression(italic("nigrocapitatus")), expression(italic("capitalis"))))+
