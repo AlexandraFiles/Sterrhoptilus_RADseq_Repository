@@ -1,48 +1,48 @@
-Genus,Species,Latitude,Longitude,Tissue #,ID,Locality,Locality_number,Island,populations
-Stachyris,capitalis,9.079,125.665,28326,S_capitalis_28326,Mindanao ,9,Mindanao,S. capitalis
-Stachyris,capitalis,9.079,125.665,28338,S_capitalis_28338,Mindanao ,9,Mindanao,S. capitalis
-Stachyris,capitalis,9.079,125.665,28339,S_capitalis_28339,Mindanao ,9,Mindanao,S. capitalis
-Stachyris,capitalis,9.079,125.665,28341,S_capitalis_28341,Mindanao ,9,Mindanao,S. capitalis
-Stachyris,capitalis,9.079,125.665,28342,S_capitalis_28342,Mindanao ,9,Mindanao,S. capitalis
-Stachyris,capitalis,7.164,122.096,29959,S_capitalis_29959,Mindanao ,11,Mindanao,S. capitalis
-Stachyris,capitalis,7.164,122.096,29965,S_capitalis_29965,Mindanao ,11,Mindanao,S. capitalis
-Stachyris,capitalis,7.164,122.096,29968,S_capitalis_29968,Mindanao ,11,Mindanao,S. capitalis
-Stachyris,capitalis,6.11008,124.68575,CMNH37769,S_capitalis_CMNH37769,Mindanao,10,Mindanao,S. capitalis
-Stachyris,dennistouni,15.6851,121.3407,19648,S_dennistouni_19648,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,19656,S_dennistouni_19656,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20186,S_dennistouni_20186,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20187,S_dennistouni_20187,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20188,S_dennistouni_20188,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20191,S_dennistouni_20191,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20201,S_dennistouni_20201,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20222,S_dennistouni_20222,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20224,S_dennistouni_20224,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20225,S_dennistouni_20225,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20229,S_dennistouni_20229,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,20335,S_dennistouni_20335,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,16.46228,121.2198,21084,S_dennistouni_21084,Nueva Vizcaya,3,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,16.46228,121.2198,21112,S_dennistouni_21112,Nueva Vizcaya,3,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.449,120.894,25696,S_dennistouni_25696,Ilocos Norte,1,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.449,120.894,25702,S_dennistouni_25702,Ilocos Norte,1,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.449,120.894,25703,S_dennistouni_25703,Ilocos Norte,1,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.449,120.894,25716,S_dennistouni_25716,Ilocos Norte,1,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.449,120.894,25743,S_dennistouni_25743,Ilocos Norte,1,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25817,S_dennistouni_25817,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25828,S_dennistouni_25828,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25846,S_dennistouni_25846,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25885,S_dennistouni_25885,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25898,S_dennistouni_25898,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25903,S_dennistouni_25903,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25908,S_dennistouni_25908,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,25939,S_dennistouni_25939,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,26573,S_dennistouni_26573,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,15.6851,121.3407,26579,S_dennistouni_26579,Aurora,4,Luzon,Southern S. dennistouni
-Stachyris,dennistouni,18.219,122.111,26961,S_dennistouni_26961,Cagayan,2,Luzon,Northern S. dennistouni
-Stachyris,nigrocapitatus,11.8174,125.2779,14192,S_nigrocapitata_14192,Samar,7,Samar,S. nigrocapitatus
-Stachyris,nigrocapitatus,11.8174,125.2779,14199,S_nigrocapitata_14199,Samar,7,Samar,S. nigrocapitatus
-Stachyris,affinis,14.039,122.786,18034,S_nigrocapitata_18034,Camarines Norte,6,Luzon,S. affinis
-Stachyris,affinis,14.039,122.786,18040,S_nigrocapitata_18040,Camarines Norte,6,Luzon,S. affinis
-Stachyris,affinis,14.039,122.786,18083,S_nigrocapitata_18083,Camarines Norte,6,Luzon,S. affinis
-Stachyris,affinis,15.0333,121.2032,25550,S_nigrocapitata_25550,Bulacan,5,Luzon,S. affinis
-Stachyris,nigrocapitatus,11.2074,125.367,33030,S_nigrocapitata_33030,Samar,8,Samar,S. nigrocapitatus
-Stachyris,nigrocapitatus,11.2074,125.367,33060,S_nigrocapitata_33060,Samar,8,Samar,S. nigrocapitatus
+Genus,Species,Latitude,Longitude,Tissue #,ID,Locality,Locality_number,Island,populations,% missing data
+Sterrhoptilus,capitalis,9.079,125.665,28326,S_capitalis_28326,Mindanao ,9,Mindanao,S. capitalis,6.61%
+Sterrhoptilus,capitalis,9.079,125.665,28338,S_capitalis_28338,Mindanao ,9,Mindanao,S. capitalis,3.08%
+Sterrhoptilus,capitalis,9.079,125.665,28339,S_capitalis_28339,Mindanao ,9,Mindanao,S. capitalis,3.70%
+Sterrhoptilus,capitalis,9.079,125.665,28341,S_capitalis_28341,Mindanao ,9,Mindanao,S. capitalis,18.64%
+Sterrhoptilus,capitalis,9.079,125.665,28342,S_capitalis_28342,Mindanao ,9,Mindanao,S. capitalis,7.69%
+Sterrhoptilus,capitalis,7.164,122.096,29959,S_capitalis_29959,Mindanao ,11,Mindanao,S. capitalis,6.93%
+Sterrhoptilus,capitalis,7.164,122.096,29965,S_capitalis_29965,Mindanao ,11,Mindanao,S. capitalis,20.69%
+Sterrhoptilus,capitalis,7.164,122.096,29968,S_capitalis_29968,Mindanao ,11,Mindanao,S. capitalis,2.96%
+Sterrhoptilus,capitalis,6.11008,124.68575,CMNH37769,S_capitalis_CMNH37769,Mindanao,10,Mindanao,S. capitalis,3.55%
+Sterrhoptilus,dennistouni,15.6851,121.3407,19648,S_dennistouni_19648,Aurora,4,Luzon,Southern S. dennistouni,35.06%
+Sterrhoptilus,dennistouni,15.6851,121.3407,19656,S_dennistouni_19656,Aurora,4,Luzon,Southern S. dennistouni,2.48%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20186,S_dennistouni_20186,Aurora,4,Luzon,Southern S. dennistouni,2.60%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20187,S_dennistouni_20187,Aurora,4,Luzon,Southern S. dennistouni,2.15%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20188,S_dennistouni_20188,Aurora,4,Luzon,Southern S. dennistouni,1.92%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20191,S_dennistouni_20191,Aurora,4,Luzon,Southern S. dennistouni,1.95%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20201,S_dennistouni_20201,Aurora,4,Luzon,Southern S. dennistouni,70.30%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20222,S_dennistouni_20222,Aurora,4,Luzon,Southern S. dennistouni,2.13%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20224,S_dennistouni_20224,Aurora,4,Luzon,Southern S. dennistouni,1.62%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20225,S_dennistouni_20225,Aurora,4,Luzon,Southern S. dennistouni,64.92%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20229,S_dennistouni_20229,Aurora,4,Luzon,Southern S. dennistouni,5.84%
+Sterrhoptilus,dennistouni,15.6851,121.3407,20335,S_dennistouni_20335,Aurora,4,Luzon,Southern S. dennistouni,56.19%
+Sterrhoptilus,dennistouni,16.46228,121.2198,21084,S_dennistouni_21084,Nueva Vizcaya,3,Luzon,Northern S. dennistouni,3.06%
+Sterrhoptilus,dennistouni,16.46228,121.2198,21112,S_dennistouni_21112,Nueva Vizcaya,3,Luzon,Northern S. dennistouni,2.56%
+Sterrhoptilus,dennistouni,18.449,120.894,25696,S_dennistouni_25696,Ilocos Norte,1,Luzon,Northern S. dennistouni,3.77%
+Sterrhoptilus,dennistouni,18.449,120.894,25702,S_dennistouni_25702,Ilocos Norte,1,Luzon,Northern S. dennistouni,1.88%
+Sterrhoptilus,dennistouni,18.449,120.894,25703,S_dennistouni_25703,Ilocos Norte,1,Luzon,Northern S. dennistouni,2.31%
+Sterrhoptilus,dennistouni,18.449,120.894,25716,S_dennistouni_25716,Ilocos Norte,1,Luzon,Northern S. dennistouni,7.81%
+Sterrhoptilus,dennistouni,18.449,120.894,25743,S_dennistouni_25743,Ilocos Norte,1,Luzon,Northern S. dennistouni,49.49%
+Sterrhoptilus,dennistouni,18.219,122.111,25817,S_dennistouni_25817,Cagayan,2,Luzon,Northern S. dennistouni,2.74%
+Sterrhoptilus,dennistouni,18.219,122.111,25828,S_dennistouni_25828,Cagayan,2,Luzon,Northern S. dennistouni,41.13%
+Sterrhoptilus,dennistouni,18.219,122.111,25846,S_dennistouni_25846,Cagayan,2,Luzon,Northern S. dennistouni,69.10%
+Sterrhoptilus,dennistouni,18.219,122.111,25885,S_dennistouni_25885,Cagayan,2,Luzon,Northern S. dennistouni,10.64%
+Sterrhoptilus,dennistouni,18.219,122.111,25898,S_dennistouni_25898,Cagayan,2,Luzon,Northern S. dennistouni,19.04%
+Sterrhoptilus,dennistouni,18.219,122.111,25903,S_dennistouni_25903,Cagayan,2,Luzon,Northern S. dennistouni,2.75%
+Sterrhoptilus,dennistouni,18.219,122.111,25908,S_dennistouni_25908,Cagayan,2,Luzon,Northern S. dennistouni,7.31%
+Sterrhoptilus,dennistouni,18.219,122.111,25939,S_dennistouni_25939,Cagayan,2,Luzon,Northern S. dennistouni,5.10%
+Sterrhoptilus,dennistouni,15.6851,121.3407,26573,S_dennistouni_26573,Aurora,4,Luzon,Southern S. dennistouni,5.87%
+Sterrhoptilus,dennistouni,15.6851,121.3407,26579,S_dennistouni_26579,Aurora,4,Luzon,Southern S. dennistouni,3.17%
+Sterrhoptilus,dennistouni,18.219,122.111,26961,S_dennistouni_26961,Cagayan,2,Luzon,Northern S. dennistouni,6.94%
+Sterrhoptilus,nigrocapitatus,11.8174,125.2779,14192,S_nigrocapitata_14192,Samar,7,Samar,S. nigrocapitatus,5.49%
+Sterrhoptilus,nigrocapitatus,11.8174,125.2779,14199,S_nigrocapitata_14199,Samar,7,Samar,S. nigrocapitatus,1.89%
+Sterrhoptilus,affinis,14.039,122.786,18034,S_nigrocapitata_18034,Camarines Norte,6,Luzon,S. affinis,2.99%
+Sterrhoptilus,affinis,14.039,122.786,18040,S_nigrocapitata_18040,Camarines Norte,6,Luzon,S. affinis,74.71%
+Sterrhoptilus,affinis,14.039,122.786,18083,S_nigrocapitata_18083,Camarines Norte,6,Luzon,S. affinis,22.65%
+Sterrhoptilus,affinis,15.0333,121.2032,25550,S_nigrocapitata_25550,Bulacan,5,Luzon,S. affinis,56.27%
+Sterrhoptilus,nigrocapitatus,11.2074,125.367,33030,S_nigrocapitata_33030,Samar,8,Samar,S. nigrocapitatus,40.99%
+Sterrhoptilus,nigrocapitatus,11.2074,125.367,33060,S_nigrocapitata_33060,Samar,8,Samar,S. nigrocapitatus,12.63%
