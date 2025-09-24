@@ -41,14 +41,14 @@ quality control is called [n4.vcf.gz](./Running_Stacks/n4.vcf.gz).
 #### SNP Filtering
 
 I filtered the *Stacks* parameter optimized vcf file using Devon
-DeRaad’s *SNPfiltR* package. I removed SNPs with read depths \< 5, with
-a mean read depth \> 125, and those with a genotype quality \< 35. I
-also removed heterozygous genotypes with 0.25 \> allele balance \> 0.75,
-and filtered for genotypes with SNP completeness \> 0.7 ([script
+DeRaad’s *SNPfiltR* package. I removed genotypes with read depths \< 5,
+genotype quality \< 35, and SNPs with a mean read depth \> 125. I also
+removed heterozygous genotypes with 0.25 \> allele balance \> 0.75, and
+filtered for SNPs called in \> 70% of samples ([script
 here](./QC_and_Filtering/Sterrhoptilus_SNPfiltering.R)). This script can
 be run to visualize many different plots to look at SNP quality and
 depth of coverage.
 
 ##### Proportion Missing per Sample
 
-![](./QC_and_Filtering/ProportionMissingData_bySample.svg)
+![](./QC_and_Filtering/ProportionMissingDatabySample.svg)
