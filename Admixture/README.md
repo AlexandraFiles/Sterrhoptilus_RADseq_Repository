@@ -19,18 +19,18 @@ used for both singleton and non-singleton runs.
 ### Prepping vcf file for running *ADMIXTURE*
 
 The script found [here](Sterrhoptilus_PrepforAdmixture.R) was used with
-the linkage-filtered dataset found in the [data
-folder](../Data/Sterrhoptilus_vcf_thinned.gz) to remove singletons and
-subset the data as necessary.
+the outgroup-removed dataset found in the [data
+folder](../Data/Sterrhoptilus_vcf_thinned.gz) to remove singletons,
+linkage filter, and subset the data as necessary.
 
 ### *ADMIXTURE* on all four Sterrhoptilus species
 
 *S. capitalis*, *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni*
-with singletons in [AdmixAllSpecies](AdmixAllSpecies)
+with singletons in [AdmixAllSpecies](AdmixAllSpecies) (4703 SNPs)
 
 *S. capitalis*, *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni*
 without singletons in
-[AdmixAllSpeciesNoSingletons](AdmixAllSpeciesNoSingletons)
+[AdmixAllSpeciesNoSingletons](AdmixAllSpeciesNoSingletons) (3692 SNPs)
 
 R script for visualizing the results with all four species is
 [here](Sterrhoptilus_VisualizingAdmixture_AllSpecies.R)
@@ -38,11 +38,11 @@ R script for visualizing the results with all four species is
 ### *ADMIXTURE* on three Sterrhoptilus species (excluding *S. capitalis*)
 
 *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni* with singletons
-in [AdmixNoCapitalis](AdmixNoCapitalis)
+in [AdmixNoCapitalis](AdmixNoCapitalis) (3998 SNPs)
 
 *S. nigrocapitatus*, *S. affinis*, and *S. dennistouni* without
 singletons in
-[AdmixNoCapitalisNoSingletons](AdmixNoCapitalisNoSingletons)
+[AdmixNoCapitalisNoSingletons](AdmixNoCapitalisNoSingletons) (2975 SNPs)
 
 R script for visualizing the results with three species is
 [here](Sterrhoptilus_VisualizingAdmixture_NoCapitalis.R)
@@ -50,10 +50,11 @@ R script for visualizing the results with three species is
 ### *ADMIXTURE* on only *S. affinis* and *S. dennistouni*
 
 *S. affinis* and *S. dennistouni* with singletons in
-[AdmixOnlyDenandAff](AdmixOnlyDenandAff)
+[AdmixOnlyDenandAff](AdmixOnlyDenandAff) (3502 SNPs)
 
 *S. affinis* and *S. dennistouni* without singletons in
-[AdmixOnlyDenandAffNoSingletons](AdmixOnlyDenandAffNoSingletons)
+[AdmixOnlyDenandAffNoSingletons](AdmixOnlyDenandAffNoSingletons) (2601
+SNPs)
 
 R script for visualizing the results with only two species is
 [here](Sterrhoptilus_VisualizingAdmixture_OnlyDenandAff.R)
