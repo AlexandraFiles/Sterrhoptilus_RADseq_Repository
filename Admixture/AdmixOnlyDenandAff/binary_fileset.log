@@ -1,29 +1,29 @@
-PLINK v1.90b6.21 64-bit (19 Oct 2020)
+PLINK v1.9.0-b.7.7 64-bit (22 Oct 2024)
 Options in effect:
   --allow-extra-chr
   --double-id
   --make-bed
   --out binary_fileset
-  --vcf thinned.onlydenandaff.lowerqualityvcf
+  --vcf sterrhoptilusadmix_onlydenandaff.vcf.gz
 
-Hostname: r06r18n01
-Working directory: /panfs/pfs.local/work/bi/a619f280/phil.stachyris/rerunofeverything/admixonlydenandaff
-Start time: Mon Oct  2 18:56:53 2023
+Hostname: r10r08n03
+Working directory: /kuhpc/work/bi/a619f280/phil.stachyris/admix_ordered_correct/onlydenandaff
+Start time: Wed Oct 22 14:19:49 2025
 
-Random number seed: 1696291013
-128845 MB RAM detected; reserving 64422 MB for main workspace.
+Random number seed: 1761160789
+128807 MB RAM detected; reserving 64403 MB for main workspace.
 --vcf: binary_fileset-temporary.bed + binary_fileset-temporary.bim +
 binary_fileset-temporary.fam written.
-1953 variants loaded from .bim file.
+3502 variants loaded from .bim file.
 34 people (0 males, 0 females, 34 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to binary_fileset.nosex .
 Using 1 thread (no multithreaded calculations invoked).
 Before main variant filters, 34 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.814509.
-1953 variants and 34 people pass filters and QC.
+Total genotyping rate is 0.815223.
+3502 variants and 34 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to binary_fileset.bed + binary_fileset.bim + binary_fileset.fam ...
 done.
 
-End time: Mon Oct  2 18:56:53 2023
+End time: Wed Oct 22 14:19:50 2025
