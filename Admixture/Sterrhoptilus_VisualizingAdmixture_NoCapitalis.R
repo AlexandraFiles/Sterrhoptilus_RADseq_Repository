@@ -10,6 +10,7 @@ setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/S
 
 #read in log error values to determine optimal K
 log<-read.table("./Admixture/AdmixNoCapitalisNoSingletons/log.errors.txt")[,c(3:4)]
+#log<-read.table("./Admixture/AdmixNoCapitalis/log.errors.txt")[,c(3:4)]
 log$V3<-gsub("\\(K=", "", log$V3)
 log$V3<-gsub("):", "", log$V3)
 #interpret K values as numerical
@@ -29,6 +30,7 @@ ggplot(data=log, aes(x=Kvalue, y=cross.validation.error, group=1)) +
 
 #read in input file
 sampling<-read.table("./Admixture/AdmixNoCapitalisNoSingletons/binary_fileset.fam")[,1]
+sampling<-read.table("./Admixture/AdmixNoCapitalis/binary_fileset.fam")[,1]
 #get list of input samples in order they appear
 sampling
 

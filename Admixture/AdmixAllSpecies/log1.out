@@ -15,16 +15,16 @@ Point estimation will terminate when objective function delta < 0.0001
 Estimation of standard errors disabled; will compute point estimates only.
 Size of G: 47x4703
 Performing five EM steps to prime main algorithm
-1 (EM) 	Elapsed: 0.004	Loglikelihood: -65268.2	(delta): 301382
-2 (EM) 	Elapsed: 0.004	Loglikelihood: -65268.2	(delta): 0
-3 (EM) 	Elapsed: 0.004	Loglikelihood: -65268.2	(delta): 0
-4 (EM) 	Elapsed: 0.004	Loglikelihood: -65268.2	(delta): 7.27596e-12
-5 (EM) 	Elapsed: 0.004	Loglikelihood: -65268.2	(delta): -7.27596e-12
+1 (EM) 	Elapsed: 0.006	Loglikelihood: -65268.2	(delta): 301382
+2 (EM) 	Elapsed: 0.006	Loglikelihood: -65268.2	(delta): -7.27596e-12
+3 (EM) 	Elapsed: 0.006	Loglikelihood: -65268.2	(delta): 7.27596e-12
+4 (EM) 	Elapsed: 0.006	Loglikelihood: -65268.2	(delta): -7.27596e-12
+5 (EM) 	Elapsed: 0.006	Loglikelihood: -65268.2	(delta): 7.27596e-12
 Initial loglikelihood: -65268.2
 Starting main algorithm
-1 (QN/Block) 	Elapsed: 0.018	Loglikelihood: -65268.2	(delta): 0
+1 (QN/Block) 	Elapsed: 0.017	Loglikelihood: -65268.2	(delta): 0
 Summary: 
-Converged in 1 iterations (0.069 sec)
+Converged in 1 iterations (0.052 sec)
 Loglikelihood: -65268.186724
 CV error (K=1): 0.44322
 Writing output files.

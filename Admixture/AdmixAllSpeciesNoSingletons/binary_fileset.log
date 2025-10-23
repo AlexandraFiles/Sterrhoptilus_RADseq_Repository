@@ -4,26 +4,26 @@ Options in effect:
   --double-id
   --make-bed
   --out binary_fileset
-  --vcf sterrhoptilusadmix_nocapitalis.mac.vcf.gz
+  --vcf sterrhoptilusadmix_nooutgroup.mac.vcf.gz
 
-Hostname: r10r08n03
+Hostname: r05r10n02
 Working directory: /kuhpc/work/bi/a619f280/phil.stachyris/admix_ordered_correct/all_nosingletons
-Start time: Wed Oct 22 14:17:50 2025
+Start time: Thu Oct 23 11:37:51 2025
 
-Random number seed: 1761160670
-128807 MB RAM detected; reserving 64403 MB for main workspace.
+Random number seed: 1761237471
+128356 MB RAM detected; reserving 64178 MB for main workspace.
 --vcf: binary_fileset-temporary.bed + binary_fileset-temporary.bim +
 binary_fileset-temporary.fam written.
-2975 variants loaded from .bim file.
-38 people (0 males, 0 females, 38 ambiguous) loaded from .fam.
+3692 variants loaded from .bim file.
+47 people (0 males, 0 females, 47 ambiguous) loaded from .fam.
 Ambiguous sex IDs written to binary_fileset.nosex .
 Using 1 thread (no multithreaded calculations invoked).
-Before main variant filters, 38 founders and 0 nonfounders present.
+Before main variant filters, 47 founders and 0 nonfounders present.
 Calculating allele frequencies... done.
-Total genotyping rate is 0.798142.
-2975 variants and 38 people pass filters and QC.
+Total genotyping rate is 0.82112.
+3692 variants and 47 people pass filters and QC.
 Note: No phenotypes present.
 --make-bed to binary_fileset.bed + binary_fileset.bim + binary_fileset.fam ...
 done.
 
-End time: Wed Oct 22 14:17:50 2025
+End time: Thu Oct 23 11:37:51 2025

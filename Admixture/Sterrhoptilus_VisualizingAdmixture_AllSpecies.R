@@ -10,6 +10,7 @@ setwd("C:/Users/Alex/OneDrive/Documents/KUprojects/Stachyrisproject/Manuscript/S
 
 #read in log error values to determine optimal K
 log<-read.table("./Admixture/AdmixAllSpeciesNoSingletons/log.errors.txt")[,c(3:4)]
+#log<-read.table("./Admixture/AdmixAllSpecies/log.errors.txt")[,c(3:4)]
 log$V3<-gsub("\\(K=", "", log$V3)
 log$V3<-gsub("):", "", log$V3)
 #interpret K values as numerical
@@ -25,10 +26,11 @@ ggplot(data=log, aes(x=Kvalue, y=cross.validation.error, group=1)) +
   xlab("K")+
   scale_x_continuous(breaks = c(1:10))+
   theme_classic()
-#lowest value is 4, 2 is close second
+#lowest value is 2, 3 and 4 are close seconds
 
 #read in input file
 sampling<-read.table("./Admixture/AdmixAllSpeciesNoSingletons/binary_fileset.fam")[,1]
+#sampling<-read.table("./Admixture/AdmixAllSpecies/binary_fileset.fam")[,1]
 #get list of input samples in order they appear
 sampling
 
@@ -48,11 +50,11 @@ for (i in 1:5){
 #run 3 now will be sorted first by dennistoui ancestry (column V2) descending, then by nigrocapitatus/affinis ancestry (column V1) descending
 #this will create order of dennistouni, affinis, nigrocapitatus, capitalis
 runs[[3]]<-runs[[3]][with(runs[[3]], order(-V2, -V1)), ]
-#run 4 will be sorted first by dennistouni ancestry (V3) descending, then by affinis ancestry (V4) descending, then by capitalis ancestry (V1) ascending
+#run 4 will be sorted first by capitalis ancestry (V1), dennistouni ancestry (V3) descending, then by affinis ancestry (V4) descending
 #this will create order of dennistouni, hybrids by background, affinis, nigrocapitatus, capitalis
-runs[[4]]<-runs[[4]][with(runs[[4]], order(-V3, -V4, V1)), ]
-#for singletons, additionally sort by capitalis ancestry (V2) ascending first
-#runs[[4]]<-runs[[4]][with(runs[[4]], order(V2, -V3, -V4)), ]
+#have to first round to remove one decimal point to make it able to be sorted correctly, this resolution is not a visible change in the bar plot
+runs[[4]]<-round(runs[[4]], digits = 5)
+runs[[4]]<-runs[[4]][with(runs[[4]], order(V1, -V3, -V4)),]
 
 #set margins
 par(mar = c(0.5, 0.5, 1, 1), oma = c(6, 0.5, 1, 1))

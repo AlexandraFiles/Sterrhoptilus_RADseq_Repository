@@ -9,7 +9,7 @@
 #SBATCH --time=360
 
 #use plink to convert vcf directly to bed format:
-/home/a619f280/work/programs/plink --vcf sterrhoptilusadmix_nocapitalis.mac.vcf.gz --double-id --allow-extra-chr --make-bed --out binary_fileset
+/home/a619f280/work/programs/plink --vcf sterrhoptilusadmix_nooutgroup.mac.vcf.gz --double-id --allow-extra-chr --make-bed --out binary_fileset
 #fix chromosome names
 cut -f2- binary_fileset.bim  > temp
 awk 'BEGIN{FS=OFS="\t"}{print value 1 OFS $0}' temp > binary_fileset.bim

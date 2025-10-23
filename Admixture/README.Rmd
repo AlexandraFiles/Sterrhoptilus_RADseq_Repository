@@ -68,8 +68,8 @@ Cross Validation Score without Singletons  |  Bar Plots without Singletons
 
 Cross Validation Score with Singletons  |  Bar Plots with Singletons
 :-------------------------:|:-------------------------:
-![](./AdmixturePlots/AdmixOnlyDenandAffCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixOnlyDenandAffBarPlot.svg)
+![](./AdmixturePlots/AdmixOnlyDenandAffCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixOnlyDenandAffPlot.svg)
 
 Cross Validation Score without Singletons  |  Bar Plots without Singletons
 :-------------------------:|:-------------------------:
-![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsBarPlot.svg)
+![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsCrossValidationScore.svg)  |  ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsPlot.svg)

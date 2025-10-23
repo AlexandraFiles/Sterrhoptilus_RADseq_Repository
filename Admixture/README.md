@@ -85,10 +85,10 @@ All 6 plots can be seen in the folder [AdmixturePlots](AdmixturePlots)
 
 #### Only *S. dennistouni* and *S. affinis*
 
-|              Cross Validation Score with Singletons              |              Bar Plots with Singletons              |
-|:----------------------------------------------------------------:|:---------------------------------------------------:|
-| ![](./AdmixturePlots/AdmixOnlyDenandAffCrossValidationScore.svg) | ![](./AdmixturePlots/AdmixOnlyDenandAffBarPlot.svg) |
+|              Cross Validation Score with Singletons              |            Bar Plots with Singletons             |
+|:----------------------------------------------------------------:|:------------------------------------------------:|
+| ![](./AdmixturePlots/AdmixOnlyDenandAffCrossValidationScore.svg) | ![](./AdmixturePlots/AdmixOnlyDenandAffPlot.svg) |
 
-|                  Cross Validation Score without Singletons                   |                  Bar Plots without Singletons                   |
-|:----------------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsCrossValidationScore.svg) | ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsBarPlot.svg) |
+|                  Cross Validation Score without Singletons                   |                 Bar Plots without Singletons                 |
+|:----------------------------------------------------------------------------:|:------------------------------------------------------------:|
+| ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsCrossValidationScore.svg) | ![](./AdmixturePlots/AdmixOnlyDenandAffNoSingletonsPlot.svg) |
