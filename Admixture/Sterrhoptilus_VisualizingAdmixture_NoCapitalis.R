@@ -30,7 +30,7 @@ ggplot(data=log, aes(x=Kvalue, y=cross.validation.error, group=1)) +
 
 #read in input file
 sampling<-read.table("./Admixture/AdmixNoCapitalisNoSingletons/binary_fileset.fam")[,1]
-sampling<-read.table("./Admixture/AdmixNoCapitalis/binary_fileset.fam")[,1]
+#sampling<-read.table("./Admixture/AdmixNoCapitalis/binary_fileset.fam")[,1]
 #get list of input samples in order they appear
 sampling
 
@@ -40,6 +40,9 @@ runs<-list()
 for (i in 1:10){
   runs[[i]]<-read.table(paste0("./Admixture/AdmixNoCapitalisNoSingletons/binary_fileset.", i, ".Q"))
 }
+#for (i in 1:10){
+#  runs[[i]]<-read.table(paste0("./Admixture/AdmixNoCapitalis/binary_fileset.", i, ".Q"))
+#}
 
 #plot each run
 par(mfrow=c(1,1))

@@ -40,6 +40,9 @@ runs<-list()
 for (i in 1:10){
   runs[[i]]<-read.table(paste0("./Admixture/AdmixAllSpeciesNoSingletons/binary_fileset.", i, ".Q"))
 }
+#for (i in 1:10){
+#  runs[[i]]<-read.table(paste0("./Admixture/AdmixAllSpecies/binary_fileset.", i, ".Q"))
+#}
 
 #plot each run
 par(mfrow=c(1,1))
@@ -50,11 +53,22 @@ for (i in 1:5){
 #run 3 now will be sorted first by dennistoui ancestry (column V2) descending, then by nigrocapitatus/affinis ancestry (column V1) descending
 #this will create order of dennistouni, affinis, nigrocapitatus, capitalis
 runs[[3]]<-runs[[3]][with(runs[[3]], order(-V2, -V1)), ]
+#for singletons, no clean way to do it, have to use a predetermined ordering
+#correct_order <- c("19","22","23","24","25","26","27","28","29","30","31","32","33",
+#                  "34","35","36","39","16","21","14","15","13","12","17","20","18",
+#                  "11","37","10","38","40","41","47","46","42","43","44","45","2",
+#                  "1","3","4","5","6","7","8","9")
+#correct_order_indices <- match(correct_order, rownames(runs[[3]]))
+#runs[[3]] <- runs[[3]][correct_order_indices, ]
+
 #run 4 will be sorted first by capitalis ancestry (V1), dennistouni ancestry (V3) descending, then by affinis ancestry (V4) descending
 #this will create order of dennistouni, hybrids by background, affinis, nigrocapitatus, capitalis
 #have to first round to remove one decimal point to make it able to be sorted correctly, this resolution is not a visible change in the bar plot
 runs[[4]]<-round(runs[[4]], digits = 5)
 runs[[4]]<-runs[[4]][with(runs[[4]], order(V1, -V3, -V4)),]
+#for run with singletons, use this instead since V1 is nigrocapitatus ancestry
+#runs[[4]]<-round(runs[[4]], digits = 5)
+#runs[[4]]<-runs[[4]][with(runs[[4]], order(V2, -V3, -V4)),]
 
 #set margins
 par(mar = c(0.5, 0.5, 1, 1), oma = c(6, 0.5, 1, 1))
@@ -83,11 +97,9 @@ par(mfrow=c(2,1))
 
 #plot barplots using the sorted runs
 barplot(t(as.matrix(runs[[3]])), col=c("#242424","#f4b71c","#b22b04"), ylab="Ancestry", border="black" , names.arg = F)
-#for singleton runs, use the following order for colors
-#barplot(t(as.matrix(runs[[3]])), col=c("#f4b71c", "#d83406", "#242424"), ylab="Ancestry", border="black" , names.arg = F)
 barplot(t(as.matrix(runs[[4]])), col=c("#b22b04","#242424","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
 #for singleton runs, use the following order for correct colors
-#barplot(t(as.matrix(runs[[4]])), col=c("#242424", "#d83406","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
+barplot(t(as.matrix(runs[[4]])), col=c("#242424", "#d83406","#f4b71c","#6f6f6f"), ylab="Ancestry", border="black", names.arg = F)
 
 #add lines for labels
 segments(x0 = 0.2, y0 = -0.03,x1 = 35.8, y1 = -0.03, xpd = NA, lwd = 3, col = "#f4b71c")

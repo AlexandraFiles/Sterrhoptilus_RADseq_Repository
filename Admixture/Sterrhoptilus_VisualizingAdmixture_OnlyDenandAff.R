@@ -40,6 +40,9 @@ runs<-list()
 for (i in 1:10){
   runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAffNoSingletons/binary_fileset.", i, ".Q"))
 }
+for (i in 1:10){
+  runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAff/binary_fileset.", i, ".Q"))
+}
 
 #plot each run
 par(mfrow=c(1,1))
