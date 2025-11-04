@@ -40,9 +40,9 @@ runs<-list()
 for (i in 1:10){
   runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAffNoSingletons/binary_fileset.", i, ".Q"))
 }
-for (i in 1:10){
-  runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAff/binary_fileset.", i, ".Q"))
-}
+#for (i in 1:10){
+#  runs[[i]]<-read.table(paste0("./Admixture/AdmixOnlyDenandAff/binary_fileset.", i, ".Q"))
+#}
 
 #plot each run
 par(mfrow=c(1,1))
@@ -67,3 +67,4 @@ segments(x0 = 36.3, y0 = -0.03,x1 = 40.8, y1 = -0.03, xpd = NA, lwd = 3, col = "
 #add text for labels
 text(x = 20.5, y = -0.16, labels = "S. dennistouni", xpd = NA, srt = -45)
 text(x = 40.1, y = -0.122, labels = "S. affinis", xpd = NA, srt = -45)
+

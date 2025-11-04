@@ -12,7 +12,7 @@ I ran *Dsuite* (Patterson's D statistic) to examine if there was an excess of sh
 
 I used the ruby scripts provided with the [Dsuite tutorial](https://github.com/millanek/tutorials/tree/master/analysis_of_introgression_with_snp_data) to quickly plot results. I then used Devon's [plotting script](https://github.com/DevonDeRaad/nmel.ceyx/blob/main/dsuite/run.dsuite.qmd) with minimal changes to make a manuscript-quality figure.
 
-I adjusted the critical value for my p-value to account for multiple tests using a [Bonferroni correction](https://doi.org/10.1080/01621459.1961.10482090) of 0.05/10 = 0.005.
+I adjusted the critical value for my p-value to account for multiple tests using a [Bonferroni correction](https://doi.org/10.1080/01621459.1961.10482090) of 0.05/6 = 0.0083.
 
 ##### Heatmap of Patterson's D statistic and associated p-values
 
